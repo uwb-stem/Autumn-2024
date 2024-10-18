@@ -1,0 +1,13 @@
+{
+    "bio": [
+        {
+            "time": "11:30 AM - 11:45 AM",
+            "projectId": "project id",
+            "title": "A Call to Action: Mobbing Vocalizations of the American Crow",
+            "studentName": "Kyla Burch\n\nZaryab Bushra\n\nAl-Jeffrey De Villa\n\nCharley McDaneld\n\nNathan Sam\n\nDaniel Tesfaye",
+            "studentMajor": "Biology, BS – minor Neuroscience\n\nBiology, BS – minor(s) Health Studies, Neuroscience (Bothell)\n\nBiology, BS\n\nBiology, BS – minor Chemistry\n\nBiology, BS\n\nBiology, BS – minor Neuroscience ",
+            "facultyAdvisor": "Dr. Doug Wacker",
+            "posterLink": "./posters/placeholder/comingsoon.jpg"
+        }
+    ]
+}
