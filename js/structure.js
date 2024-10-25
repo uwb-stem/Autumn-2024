@@ -75,6 +75,59 @@ function openNav() {
 }
 
 
+export function createPanelDiscussionElement(time, panelTitle) {
+    // Create main div
+    const mainDiv = document.createElement('div');
+    mainDiv.id = 'main';
+
+    // now the column divs
+
+    const colsdiv = document.createElement('div');
+    colsdiv.id="cols";
+    colsdiv.className = 'acspan-12';
+
+
+    const col1 = document.createElement('div');
+    col1.id = 'col1';
+    col1.className = 'acspan-12';
+
+
+    const col2 = document.createElement('div');
+    col2.id = 'col2';
+    col2.className = 'acspan-12';
+
+    const grayBoxDiv = document.createElement('div');
+    grayBoxDiv.className = 'gray-box';
+
+    const timeH3 = document.createElement('h3');
+    timeH3.textContent = time;
+
+    const titleH1 = document.createElement('h1');
+    const titleB = document.createElement('b');
+    titleB.textContent = 'Panel Discussion: ';
+    titleH1.appendChild(titleB);
+    titleH1.innerHTML += panelTitle; // Append the actual title after the bold part
+
+    const grayBoxTextDiv = document.createElement('div');
+    grayBoxTextDiv.className = 'gray-box-text';
+
+
+    grayBoxTextDiv.appendChild(document.createElement('br'));
+    grayBoxTextDiv.appendChild(document.createElement('br'));
+
+
+    grayBoxDiv.appendChild(timeH3);
+    grayBoxDiv.appendChild(titleH1);
+    grayBoxDiv.appendChild(grayBoxTextDiv);
+    mainDiv.appendChild(grayBoxDiv);
+    colsdiv.appendChild(col1);
+    colsdiv.appendChild(col2);
+    mainDiv.appendChild(colsdiv);
+
+    return mainDiv;
+}
+
+
 /**
  * 
  * @param {JSON} presentationInfo 
@@ -142,7 +195,7 @@ export function createPresentationBox(presentationInfo, container, addAbstractBu
 
             let abstract = presentationInfo.abstract;
             let title = presentationInfo.title;
-            let studentNames = presentationInfo.studentName.split('\n\n');;
+            let studentNames = presentationInfo.studentName.split("\\n\\n");
             let faculty = presentationInfo.facultyAdvisor;
             let type = presentationInfo.projectType;
             let presentationData = {
@@ -150,7 +203,8 @@ export function createPresentationBox(presentationInfo, container, addAbstractBu
                 abstract: abstract,
                 studentName: studentNames,
                 facultyAdvisor: faculty,
-                projectType: type
+                projectType: type,
+                posterLink : presentationInfo.poster
             };
             localStorage.setItem("presentationData", JSON.stringify(presentationData));
         });
@@ -259,7 +313,6 @@ function addStudentNames(presentationInfo) {
     let studentDiv = document.createElement("div");
 
     studentDiv.classList.add("students");
-
     let studentName = document.createElement("h4");
     let splitStudentName = presentationInfo.studentName.split("\\n\\n");
 

@@ -18,7 +18,6 @@ function findStudent(projectId) {
 */
 function loadAbstract() {
     let abstractFromStorage = JSON.parse(localStorage.getItem("presentationData"));
-   
     let container = document.getElementById("abstract");
 
     // Abstract heading with gold bar
@@ -31,7 +30,7 @@ function loadAbstract() {
 
     for(const name of abstractFromStorage.studentName){
         let h2 = document.createElement("h2");
-        h2.innerHTML = abstractFromStorage.studentName;
+        h2.innerHTML = name;
         heading.appendChild(h2);
     }
     let goldBar = document.createElement("figure");
@@ -75,7 +74,7 @@ function loadAbstract() {
         container.appendChild(abstractText);
     }
 
-    let splitPosters = abstractFromStorage.posterLink.split("\n\n");
+    let splitPosters = abstractFromStorage.posterLink.split("\\n\\n");
     if(abstractFromStorage.posterLink != "<<NOPOSTER>>" ) loadPosters(splitPosters,container);
 
 }

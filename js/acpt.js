@@ -5,6 +5,7 @@ import { createPresentationBox, readTextFile, createPanelDiscussionElement } fro
  * @param {*} query_result 
  */
 function preprocess_data(query_result) {
+
     const mapped = new Map();
     const result = {
         ac: []
@@ -33,9 +34,9 @@ function preprocess_data(query_result) {
 
 }
 
-function createPanels(json_data) {
+function createPanels(panels) {
 
-    let panels = JSON.parse(json_data)["ac"];
+    console.log(panels)
     const content_block = document.getElementsByClassName("acContent_Block");
     const panel_sections = new Map();
     let idx = 0
@@ -55,15 +56,12 @@ function createPanels(json_data) {
 
         let panel_element = createPanelDiscussionElement(element.time, element.panel);
         divElement.appendChild(panel_element);
-
         let presentations = element.presentations;
         const coldiv = panel_element.children[1]; //todo: do this better, not sure if cols will always be at [1]
         const cols = coldiv.children;
 
         for (let i = 0; i < presentations.length; ++i) {
-
             const container = i % 2 === 0 ? cols[0] : cols[1];
-
             let pres = createPresentationBox(presentations[i], container, false, false);
             let img = pres.querySelector('img');
             img.setAttribute('onclick', 'onClick(this)');
@@ -78,13 +76,15 @@ function createPanels(json_data) {
 
 //getJsonData("./js/ac/");
 
-let url = 'http://127.0.0.1:8080/api/major/acmpt';
+//let url = 'http://127.0.0.1:8080/api/major/acmpt';
 
-const response = await fetch(url);
+//const response = await fetch(url);
 
-const json = await response.json();
+//const json = await response.json();
 
-let data = preprocess_data(json['presentations']);
-createPanels(data)
+let json_data = await readTextFile("./js/ac/ac.json");
+let json = JSON.parse(json_data)
+//let data = preprocess_data(json['ac']);
+createPanels(json['ac'])
 
 

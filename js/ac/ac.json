@@ -7,32 +7,41 @@
                 {
                     "title": "title",
                     "studentName": "student name",
+                    "studentMajor": "student name",
                     "facultyAdvisor": "faculty advisor",
-                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                    "poster": "./posters/placeholder/comingsoon.jpg"
                 },
                 {
                     "title": "title",
                     "studentName": "student name",
+                    "studentMajor": "student name",
+
                     "facultyAdvisor": "faculty advisor",
-                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                    "poster": "./posters/placeholder/comingsoon.jpg"
                 },
                 {
                     "title": "title",
                     "studentName": "student name",
+                    "studentMajor": "student name",
+
                     "facultyAdvisor": "faculty advisor",
-                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                    "poster": "./posters/placeholder/comingsoon.jpg"
                 },
                 {
                     "title": "title",
                     "studentName": "student name",
+                    "studentMajor": "student name",
+
                     "facultyAdvisor": "faculty advisor",
-                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                    "poster": "./posters/placeholder/comingsoon.jpg"
                 },
                 {
                     "title": "title",
                     "studentName": "student name",
+                    "studentMajor": "student name",
+
                     "facultyAdvisor": "faculty advisor",
-                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                    "poster": "./posters/placeholder/comingsoon.jpg"
                 }
             ]
         },
@@ -43,20 +52,26 @@
                 {
                     "title": "title",
                     "studentName": "student name",
+                    "studentMajor": "student name",
+
                     "facultyAdvisor": "faculty advisor",
-                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                    "poster": "./posters/placeholder/comingsoon.jpg"
                 },
                 {
                     "title": "title",
                     "studentName": "student name",
+                    "studentMajor": "student name",
+
                     "facultyAdvisor": "faculty advisor",
-                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                    "poster": "./posters/placeholder/comingsoon.jpg"
                 },
                 {
                     "title": "title",
                     "studentName": "student name",
+                    "studentMajor": "student name",
+
                     "facultyAdvisor": "faculty advisor",
-                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                    "poster": "./posters/placeholder/comingsoon.jpg"
                 }
             ]
         }
@@ -68,38 +83,49 @@
                 {
                     "title": "title",
                     "studentName": "student name",
+                    "studentMajor": "student name",
+
                     "facultyAdvisor": "faculty advisor",
-                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                    "poster": "./posters/placeholder/comingsoon.jpg"
                 },
                 {
                     "title": "title",
                     "studentName": "student name",
+                    "studentMajor": "student name",
+
                     "facultyAdvisor": "faculty advisor",
-                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                    "poster": "./posters/placeholder/comingsoon.jpg"
                 },
                 {
                     "title": "title",
                     "studentName": "student name",
+                    "studentMajor": "student name",
+
                     "facultyAdvisor": "faculty advisor",
-                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                    "poster": "./posters/placeholder/comingsoon.jpg"
                 },
                 {
                     "title": "title",
                     "studentName": "student name",
+                    "studentMajor": "student name",
+
                     "facultyAdvisor": "faculty advisor",
-                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                    "poster": "./posters/placeholder/comingsoon.jpg"
                 },
                 {
                     "title": "title",
                     "studentName": "student name",
+                    "studentMajor": "student name",
                     "facultyAdvisor": "faculty advisor",
-                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                    "poster": "./posters/placeholder/comingsoon.jpg"
                 },
                 {
                     "title": "title",
                     "studentName": "student name",
+                    "studentMajor": "student name",
+
                     "facultyAdvisor": "faculty advisor",
-                    "posterLink": "./posters/placeholder/comingsoon.jpg"
+                    "poster": "./posters/placeholder/comingsoon.jpg"
                 }
             ]
         }
