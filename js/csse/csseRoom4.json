@@ -1,20 +1,53 @@
-
-
 {
-    "csse": [
-      
-        {
-           "time": "",
-           "projectId": "",
-           "title": "test",
-           "studentName": "",
-           "studentMajor": "",
-           "projectType": "",
-           "facultyAdvisor": "",
-           "posterLink": "./posters/placeholder/comingsoon.jpg",
-           "abstract": ""   
+  "presentations": [
 
-	}
-    
-    ]
+    {
+      "time": "2:30 PM - 2:45 PM",
+      "projectId": "csse-4-230",
+      "title": "Pharma Pal",
+      "studentName": "Hakan Peterson ",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Mr. Mark Kochanski",
+      "section": 4,
+      "poster": "./posters/csse/petersonhakan_4030178_127906786_pharmapalposterFINAL.png",
+      "abstract": "There are many technological challenges that arise in the healthcare industry. With the closing of pharmacies across the country in recent years, one of the challenges for those that still thrive is high volume with low staffing. Although their primary purpose is to safely provide medication to the community, they spend significant time processing insurance billing and stringent guidelines. This project has streamlined some of the calculations and documentation process to allow more time to be allocated to patient care rather than insurance billing tasks. With a more simplified system; they would be mitigating the risk of failure, as well as crafting a more efficient and thorough calculation process by having the calculations and equations run by a program. \n\n To be more specific; this program is a web application that facilitates calculations done by pharmacy staff in order to reduce the time spent on the task. The calculations are specific to the day supply assigned to each prescription. This quantity determines the amount of time the medication covered by the patient’s insurance plan will support the patient, and therefore determines what the pharmacy is to dispense to the patient. The resource for relevant calculations comes from the insurance company itself; provided during consultation with Ostroms’ staff; the sponsor of the project. These resources contain guidelines/charts provided by a pharmacy audit assistance company. Through this system the calculations are done on the back-end according to these guidelines; utilizing object oriented programming to calculate the necessary information. No client data is saved on the application as it is a supplementary tool for the staff members to lean on; not rely solely upon. With medication information given; things like dosage frequency, amount, total quantity, concentration, beyond use date, package supply, etc are used to determine day supply or reverse engineer quantity to be dispersed based on days given by the insurance. After multiple weeks of testing; the estimated future time saved will be greatly beneficial to the pharmacy, as this application enhances the workflow. Considering the time saved and converting that into dollars saved based on average salaries; Ostroms’ will save tens of thousands of dollars by using my program to increase worker efficiency; also lending more time for staff to help their patients instead of doing monotonous data input. "
+    },
+    {
+      "time": "2:45 PM - 3:00 PM",
+      "projectId": "csse-4-245",
+      "title": "",
+      "studentName": "Mesgana Geletu",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Mr. Mark Kochanski",
+      "section": 4,
+      "poster": "./posters/csse/geletumesgana_4326088_127919325_MesganaGeletu.png",
+      "abstract": "SWE Internship at Gekko Co.\n\n My internship at Gekko Corporation, I worked on a capstone project focused on health monitoring through a mobile application. The main goal was to make the application compatible with both iOS and Android devices, as this was essential for collecting user health data from tracking devices and uploading it to a central database.\n\n Using React Native and Expo Go, our team successfully addressed compatibility challenges, allowing the app to work seamlessly on multiple platforms. The application also enabled data upload to a database, powering a dashboard that summarized users' health data and status. This feature ensures reliable data collection and visualization for both Android and iOS users, meeting the project’s aim of providing an inclusive health monitoring solution.\n\n This project emphasized the importance of cross-platform development in health technology, ensuring consistent user experiences across devices. Key takeaways included gaining expertise in mobile application development, learning about API integrations for data retrieval, and using Splunk for data management. "
+    },
+    {
+      "time": "3:00 PM - 3:15 PM",
+      "projectId": "csse-4-300",
+      "title": "",
+      "studentName": "Muhammad Ahsan",
+      "studentMajor": "CSSE",
+      "projectType": "Individual project",
+      "facultyAdvisor": "Mr. Mark Kochanski",
+      "section": 4,
+      "poster": "./posters/csse/Ahsan Poster_page-0001.jpg",
+      "abstract": ""
+    },
+    {
+      "time": "3:15 PM - 3:30 PM",
+      "projectId": "csse-4-330",
+      "title": "Health System Data Analysis At Gekko Corporation",
+      "studentName": "Ahmad Muhammad",
+      "studentMajor": "CSSE",
+      "projectType": "Individual project",
+      "facultyAdvisor": "Mr. Mark Kochanski",
+      "section": 4,
+      "poster": "./posters/csse/muhammadahmad_4351598_127782732_Poster Ahmad Final.png",
+      "abstract": "During my internship, I worked on integrating Openlit software with external systems to process and analyze health data, specifically from wearable devices like Apple Watches. The goal was to enable real-time analysis and visualization of health metrics, such as heart rate and physical activity, by sending the data to Splunk for further examination. Additionally, I focused on incorporating large language models (LLMs), such as GPT-2, to help interpret the data and provide valuable insights. This process also involved addressing ethical concerns around AI, such as hallucination, bias, and toxicity, to ensure the results were trustworthy and responsible.\n\n The main purpose of the project was to enhance the accessibility and usability of health data in a way that would improve decision-making, monitoring, and overall healthcare outcomes. By integrating Openlit with other systems, I aimed to streamline the flow of data from wearable devices to Splunk, allowing healthcare professionals to analyze real-time data through customizable dashboards. The addition of GPT-2 helped provide a deeper analysis of the data, with AI-generated insights potentially offering personalized recommendations for individuals based on their health metrics. \n\n The result of the project was a functional data pipeline that successfully transferred health data from Openlit to Splunk. The dashboards were designed to display key health trends and anomalies, providing real-time insights. I also tackled challenges such as configuring APIs and addressing the ethical implications of AI-driven outputs. Although the project faced technical hurdles along the way, such as troubleshooting integration issues and ensuring data accuracy, the outcome was a much stronger and more reliable system. \n\n The significance of this project lies in its potential to merge real-time health data with advanced AI technologies for improved healthcare monitoring. It demonstrated how wearable devices can be used to provide valuable insights, not only for individuals but also for healthcare professionals seeking data-driven decisions. The experience deepened my understanding of how to build and troubleshoot data pipelines, integrate AI responsibly, and the importance of ethical considerations when working with sensitive health data. This internship has equipped me with valuable skills and insights that will shape my approach to future projects in the healthcare technology space."
+    }
+  ]
 }

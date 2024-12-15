@@ -1,0 +1,40 @@
+{
+    "presentations": [
+        {
+            "time": "",
+            "title": "Investigating the Role of Mitochondrial Dysfunction and Senescence in Aortic Disease",
+            "studentName": "Asmaa Abdalla",
+            "studentMajor": "Biology (B.S.), Minor: Neuroscience",
+            "facultyAdvisor": "Dr. Andrea Vederoff",
+            "section": 1,
+            "poster": "./posters/bio/Abdalla Asmaa Poster 2024.png"
+        },
+        {
+            "time": "",
+            "title": "The Role of Vertebral Shape and Mineralization in Burrowing Performance in the Pacific Sand Lance",
+            "studentName": "Tatiana Egbert",
+            "studentMajor": "Biology (B.S.)",
+            "facultyAdvisor": "",
+            "section": 1,
+            "poster": "./posters/bio/Tatiana Egbert - Sand Lance Morphology Poster.jpg"
+        },
+        {
+            "time": "",
+            "title": "Purifying CRISPR Cas Proteins",
+            "studentName": "Sophia Gillis",
+            "studentMajor": "Biology (B.S.), Psychology (B.A.)",
+            "facultyAdvisor": "Dr. Bryan White",
+            "section": 1,
+            "poster": "./posters/placeholder/comingsoon.jpg"
+        },
+        {
+            "time": "",
+            "title": "Antibiotic resistance in environmental E.coli isolates with potential human source markers",
+            "studentName": "Hannah Salmon",
+            "studentMajor": "Biology (B.S.)",
+            "facultyAdvisor": "Dr. Robert Turner & Dr. Keya Sen",
+            "section": 1,
+            "poster": "./posters/bio/HannahSalmonResearchPosterfinal2-2204-1.png"
+        }
+    ]
+}

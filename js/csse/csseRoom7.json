@@ -1,20 +1,136 @@
-
-
 {
-    "csse": [
-      
-        {
-           "time": "",
-           "projectId": "",
-           "title": "test",
-           "studentName": "",
-           "studentMajor": "",
-           "projectType": "",
-           "facultyAdvisor": "",
-           "posterLink": "./posters/placeholder/comingsoon.jpg",
-           "abstract": ""   
-
-	}
-    
-    ]
+  "presentations": [
+    {
+      "time": "1:00 PM - 1:15 PM",
+      "projectId": "csse-7-100",
+      "title": "Per Scholas: My Software Engineering Capstone Journey",
+      "studentName": "Said Sajady",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Arkady Retik",
+      "section": 7,
+      "poster": "./posters/csse/sajadysaidmasih_4252247_127826847_CSS 497 Poster.png",
+      "abstract": "Per Scholas: My Software Engineering Capstone Journey, Said Sajady, CCSE\n\n My capstone project is the culmination of everything I’ve learned during Per Scholas’ 15-week Software Engineering course. Throughout the program, I built multiple projects, each focusing on specific skills and technologies like React, Node.js, Java, and database management. These projects paved the way for my final real-world application, where I brought all those skills together into one cohesive, responsive web-based solution. This capstone is more than just a project—it’s a practical demonstration of my ability to build full-stack applications that solve real-world problems.\n\n Per Scholas is known for opening doors for people traditionally underrepresented in tech. Their tuition-free program combines rigorous training with hands-on learning, giving participants like me the tools and confidence to succeed in the field. By emphasizing practical experience and a deep understanding of industry-relevant frameworks, the program ensures graduates are prepared to meet the demands of today’s job market.\n\n My capstone is a major milestone in my journey as a software developer, highlighting my ability to build a full-stack application using modern tools like React/Redux, Java, and database systems. By incorporating elements from earlier projects, it demonstrates my progression and understanding of complex software development. It serves as a tangible example of what I can bring to a team, making it an invaluable asset in job applications. Additionally, it provided me with hands-on experience tackling real-world challenges, from solving coding problems to managing deadlines. This capstone represents the culmination of my training, growth, and creativity, serving as both a personal achievement and a professional springboard."
+    },
+    {
+      "time": "1:15 PM - 1:30 PM",
+      "projectId": "csse-7-115",
+      "title": "Kardin Help Management System",
+      "studentName": "Michael Albert",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Arkady Retik",
+      "section": 7,
+      "poster": "./posters/csse/albertmichael_4139717_127918569_Business.png",
+      "abstract": "Kardin Help Management System \n\n Michael Albert \n\n My internship goal was to produce a help-content management service for a company called Kardin Systems. Kardin Systems is a financial budgeting systems company for commercial real estate managers. This project was undertaken to enhance their online application so that we could assign informational and instructional content to each page of their application. The reason why this service was designed was for the purpose of allowing our users to access content that would help them learn the system; specifically, to learn what each part of the application does, how to use it, and what the scope is for each page in the broader process of budgeting. \n\n The result was a solution that I designed, built, and implemented: a Java Spring Boot microservice with a proprietary document database for the backend; and an addition to our existing React JS application with a new explorer for creating and managing help content. The significance of this system is that our Support Team can now individually assign help content that they think is relevant to a particular page in our application. Our support team can now construct nuanced help content to assign to pages they feel relevant; this provides our end users with a robust, custom tailored, assistive experience.\n\n This kind of feature-to-feature specific help in our application is a huge step over what a lot of competitive applications are capable of providing as an experience to their customers. "
+    },
+    {
+      "time": "1:30 PM - 1:45 PM",
+      "projectId": "csse-7-130",
+      "title": "Software Engineering Intern at JPMorganChase",
+      "studentName": "Disha Mahajan",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Arkady Retik",
+      "section": 7,
+      "poster": "./posters/csse/mahajandisha_4244362_127384244_Capstone_Poster_Disha_Mahajan.png",
+      "abstract": "The goal of my internship project at JPMorganChase was to implement a feature that reduces data duplication and preserves data integrity for an internal application. Data redundancy poses a significant challenge, as it can lead to inconsistent information, higher storage costs, and inefficiencies. Maintaining accurate and reliable data across our systems is essential for informed decision-making and effective operational processes. Therefore, a key part of this project involved developing a solution to address duplications as well as prevent them from recurring.\n\n To address this challenge, I helped implement a feature that integrates both backend and frontend components. On the backend, I worked on ensuring the security of data passing. In the frontend, I created an interactive user interface that allows users to review and manage potential duplicates, enhancing ease of use and minimizing user error. The integration of both components provides a streamlined and comprehensive solution, improving overall data quality.\n\n The results obtained in the first phase of the project demonstrated a visible reduction in data duplication and enhanced data consistency. My work has set the foundation for further development, allowing the feature to be expanded and adapted to accommodate business needs. This project not only highlights the importance of data integrity in enterprise environments but also showcases the impact of well-integrated backend and frontend solutions in achieving it."
+    },
+    {
+      "time": "1:45 PM - 2:00 PM",
+      "projectId": "csse-7-145",
+      "title": "Developing the Brand-Voice feature at EcomAds.ai",
+      "studentName": "Aaron Gropper",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Arkady Retik",
+      "section": 7,
+      "poster": "./posters/csse/gropperaaron_4280836_127724803_Aaron_Gropper_Capstone_Poster.png",
+      "abstract": "Developing the Brand-Voice feature at EcomAds.ai \n\n During my time as an intern at EcomAds.ai I was responsible for the development of the brand-voice feature. This feature is designed to evaluate the tone, style and messaging of the website of a brand and provide critical feedback for improvement. The challenge was to research and implement existing technologies in combination with the creation of new code to rapidly provide this service. \n\n To achieve this goal, I designed and implemented a database for the feature, a website screenshot feature leveraging a containerized browser, a user interface to collect necessary information, functions to communicate information with the database, and a set of processing functions interacting with the OpenAI Chat GPT-4-turbo API. The feature operates by collecting a picture of the website of interest and sending that image to the Chat GPT API for review and analysis, then displaying the results. I chose to collect a picture of the website with a screenshot because it provided key visual information for review and, unlike html web scraping, another method considered, the image could be handed directly to the Chat GPT API without the need for additional processing. \n\n By the end of my time as an intern with the EcomAds.ai team I had a working prototype of the feature, complete with documentation and diagraming to pass on to the team. This feature will offer businesses opportunities to rapidly and affordably improve the efficacy of their websites. "
+    },
+    {
+      "time": "2:00 PM - 2:15 PM",
+      "projectId": "csse-7-200",
+      "title": "OpenSearch Migration | Software Engineer Internship @ T-Mobile",
+      "studentName": "Andrew Nguyen",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Arkady Retik",
+      "section": 7,
+      "poster": "./posters/csse/nguyenandrewv_4001123_127796360_Capstone Poster 2024 Andrew Nguyen's Poster Template.pptx.png",
+      "abstract": "The primary goal of this internship project was to migrate an existing string-literal based search engine within the Bounded Scope module to Amazon OpenSearch through system design and implementation. The FIT is a custom internal tool developed by T-Mobile Business Architecture, to help IT and business members scope development projects in alignment with their Business Architecture, along with scoping solutions and services to specific journey models and projects. Within the FIT lies a module known as Bounded Scope, in which allows users to explore business models and services by targeted searches based on specific criteria such as a “Product” or a “service”. The main challenge of the Bounded Scope is its search functionality uses string literals, requiring exact matches, limiting its functionality and causing inefficiency in search results.\n\n The migration process began with analyzing the existing search module to understand its capabilities and limitations, which was crucial for transitioning to OpenSearch. This system design analysis revealed key functionalities and informed the evaluation of two potential migration approaches. By weighing their pros, cons, and trade-offs, I helped select the most suitable approach for FIT. I then designed a high-level software diagram to guide implementation, clarify its integration within the codebase, and serve as a blueprint for future enhancements after my internship. \n\n Implementation involved modifying existing backend cron jobs and developing new logic for Services to deliver more accurate search results. The technology stack included SQL, Sequelize, OpenSearch DSL, Node.js, and Express.js. I created an OpenSearch Index by pulling data from the ServiceNow API via Sequelize and implemented a new Express.js service to perform search actions. This service used OpenSearch DSL to define key attributes for searches and results, ensuring a more precise and user-focused search experience. \n\n The migration to OpenSearch significantly enhances the user experience by improving the ability to find and discover information within the business architecture model. Users will benefit from more accurate and optimized search results, as the system can handle misspellings and still return relevant results. Additionally, search queries are expanded beyond their root forms, providing access to more variations of words and yielding more relevant results compared to exact match searches. "
+    },
+    {
+      "time": "2:15 PM - 2:30 PM",
+      "projectId": "csse-7-215",
+      "title": "Software Engineer Internship at Gekko Corporations",
+      "studentName": "Rohan Patel",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Arkady Retik",
+      "section": 7,
+      "poster": "./posters/csse/patelrohan_4256008_127852255_Rohan Patel - Capstone Poster.png",
+      "abstract": ""
+    },
+    {
+      "time": "2:30 PM - 2:45 PM",
+      "projectId": "csse-7-230",
+      "title": "SWE Intern @ Fidelity Investments",
+      "studentName": "Tush Thonupunoori",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "",
+      "section": 7,
+      "poster": "./posters/csse/thonupunooritushar_4249523_127806892_TusharFinalCapstonePoster.png",
+      "abstract": "SWE Intern at Fidelity Investments\n\n For my capstone project, I completed an internship at Fidelity Investments, a financial services corporation. I worked on developing and enhancing existing features for the Wealthscape platform, which is used by financial advisors at Fidelity and other companies to manage clients' money, investments, and accounts. Most of my user stories focused on updating the \"accounts\" section of the platform, including displaying the results of previous steps taken by financial advisors, fixing bugs reported during sprints, enhancing the UI for a better user experience, and adding functionality that allows advisors to confirm their updates. \n\n Each sprint, I was assigned user stories that included development, automation, unit testing, demo, and QA peer review. For development, I used Angular and wrote TypeScript code to add new features. I also automated UI testing using Cucumber, which made sure the website was working correctly. I wrote and adjusted unit test cases to match the changes in my code. At the end of each sprint, I had to give short demo explaining how my development me the acceptance criteria and what features I did to the whole team. Additionally, I used AWS Jenkins to test my changes in different environments. Throughout the internship, I learned about pull requests, handling merge conflicts, pushing changes, and version control using a tool called SourceTree. \n\n The result of my work was the successful development of features that improved the platform's usability and functionality for financial advisors. I also fixed bugs, ensuring a smoother experience for users. This internship helped me grow as a developer, giving me hands-on experience working with live products deployed to production. I learned to understand business concepts before coding and gained experience in a Scrum work environment using Jira. I also learned the importance of being proactive, asking questions, and collaborating with colleagues across different roles."
+    },
+    {
+      "time": "2:45 PM - 3:00 PM",
+      "projectId": "csse-7-245",
+      "title": "Cross-Script Transliteration: Designing Efficient Solutions for Lexxify's Multilingual Platform ",
+      "studentName": "Yash Varde",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Arkady Retik",
+      "section": 7,
+      "poster": "./posters/csse/vardeyash_4112793_127673085_Poster-1.jpg",
+      "abstract": "This project, undertaken as part of a capstone internship with Lexxify Inc., focused on enhancing the company's transliteration system to support seamless communication across diverse scripts. Transliteration—the process of converting text from one script to another while maintaining the same phonetics—plays a vital role in facilitating global interactions on Lexxify’s multilingual social media platform.\n\n The primary objectives were to improve transliteration accuracy, automate script detection, and expand support for additional scripts. To achieve this, a testing framework was developed to assess the performance of Lexxify’s in-house script converter, identifying weaknesses and providing actionable insights for refinement. The project also included the design and implementation of an autodetector, capable of automatically identifying the script of a given text, thereby enhancing user experience by eliminating manual script selection.\n\n Additionally, the project extended the functionality of the Aksharamukha transliteration system to accommodate new scripts such as Zhuyin and Mkhedruli, addressing the platform's need to serve a broader, global audience. This required creating comprehensive Unicode mappings and integrating them into Lexxify's transliteration pipeline.\n\n Key results include a significant improvement in transliteration accuracy, a more intuitive user interface through automated script detection, and an expanded linguistic reach. The integration of new scripts broadened Lexxify’s capabilities, allowing it to better serve users from diverse linguistic backgrounds.\n\n This work is significant as it advances Lexxify’s mission of fostering inclusive and accessible communication. By addressing complex transliteration challenges, the project contributes to the development of a robust, scalable solution that supports the linguistic diversity of its global user base. "
+    },
+    {
+      "time": "3:00 PM - 3:15 PM",
+      "projectId": "csse-7-300",
+      "title": "Costco IT - Service Now Software Developer Engineer Internship​",
+      "studentName": "Azhan Zaheer",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Arkady Retik",
+      "section": 7,
+      "poster": "./posters/csse/zaheerazhan_4087770_127918184_azhanzaheercapstoneposter.jpg",
+      "abstract": "This capstone project focuses on the development and deployment of enhanced functionality for Costco IT's CARTS+ (Costco Assistance & Request Tracking System), a mobile platform designed to streamline incident management, approvals, and change requests while promoting leadership accountability. As a ServiceNow Software Developer Intern, I contributed to the advancement of the ServiceNow Mobile Agent App, delivering key features that significantly improved user experience and operational efficiency.\n\n A major highlight of this project was the creation and successful deployment of the \"Change Approvals\" landing screen, enabling VPs and leadership to efficiently approve or reject requests directly from the mobile app. This feature addressed a critical organizational need, empowering leadership to take prompt action on change requests while improving overall accountability. By deploying this functionality into production, the project achieved a tangible impact on leadership workflows, reducing approval completion times by 90% on mobile devices compared to web interfaces.\n\n Other notable contributions include the implementation of high-priority incident notifications, the introduction of a \"Watch List\" feature for tracking essential tasks, and the integration of dark mode to enhance accessibility for diverse user environments. I also developed analytics dashboards to track application usage and adoption metrics, and authored comprehensive documentation to support end-users and developers alike.\n\n The project's results include a 62% increase in total application sessions and a 45% rise in active users, reflecting widespread adoption and improved productivity. This work not only enhanced my technical proficiency in ServiceNow but also allowed me to apply agile development methodologies, gather and refine stakeholder requirements, and deliver a mobile-first solution aligned with Costco IT’s strategic objectives. This capstone demonstrates the value of creating user-focused tools that drive efficiency, accountability, and engagement at the enterprise level."
+    },
+    {
+      "time": "3:15 PM - 3:30 PM",
+      "projectId": "csse-7-315",
+      "title": "Developing a Secure, Remote-Access System for Garage Doors",
+      "studentName": "Subhan Zaki Zada",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Arkady Retik",
+      "section": 7,
+      "poster": "./posters/csse/Subhan Zaki-Zada 497 Final Poster.png",
+      "abstract": "The main goal of my internship project at Melior LLC was to develop the system that controls the garage door remotely via SMS commands and integrated a Node.js backend with a microcontroller. To achieve this, I set up the backend server, used Twilio for SMS handling, and designed a state machine to manage various door states even including manual operations for the project. The server would also log actions and manage data with a database to keep track of the door states and user activities which would ensure that the commands could sent and received reliably even in edge cases like manual overrides or network failures.\n\n Purpose of the project is to automate garage door control and making it more convenient and accessible for users. It addresses the need for secure and remote access to home automation systems which is becoming important as more devices become part of the Internet of Things (IoT). This integration of SMS functionality provides a simple and universal method for users to interact with the system without requiring a specialized app or advanced technical knowledge. As the result, the system is successfully allowing users to remotely control the garage door through SMS commands while maintaining an accurate state synchronization between server and the door. Extensive testing ensures reliability and even including the scenarios where manual door operations or communication errors.\n\n The project demonstrates the potential for practical IoT applications that can be implemented affordably and securely in home automation and it also provides a blueprint for integrating real-time communication and device control using common technologies like Node.js, SMS and microcontrollers. This solution contributes to the growing field of IoT by offering a simple and scalable system that meets the modern convenience and security requirements."
+    },
+    {
+      "time": "3:30 PM - 3:44 PM",
+      "projectId": "csse-7-330",
+      "title": "ITS Help Desk Internship @ Snohomish County PUD",
+      "studentName": "Mohammad Chaudhry     ",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Arkady Retik",
+      "section": 7,
+      "poster": "./posters/csse/Mohammad Chaudhry  CSS_CapstonePoster_Fall2024 (2).jpg",
+      "abstract": "During my ITS Help Desk Internship at Snohomish County PUD, I contributed to enhancing IT operations through hands-on experience with inventory management, system imaging, hardware support, and process optimization. I was part of a collaborative IT team of around 15 Helpdesk professionals, working together to support the IT needs of approximately 1,500 employees across the organization.\n\n My work included conducting detailed physical inventory audits to validate asset records, deploying standardized system images for consistent device setups, and streamlining equipment request processes using SharePoint workflows. Additionally, I supported a variety of hardware devices such as laptops, desktops, iPhones, and network-connected printers while engaging directly with end users to resolve issues and ensure effective communication.\n\n A significant aspect of my role was bridging technical execution with organizational needs by identifying and addressing pain points in IT workflows. I also collaborated with senior engineers, gaining valuable exposure to IT infrastructure and its impact on organizational efficiency. I actively participated in discussions to propose and implement process improvements that enhanced overall operational effectiveness.\n\n This internship allowed me to develop and refine skills in inventory auditing, system deployment, hardware troubleshooting, and communication, all while working in a dynamic and supportive environment. My experience has solidified my interest in IT systems and highlighted the importance of adaptability and proactive problem-solving in delivering effective solutions."
+    }
+  ]
 }

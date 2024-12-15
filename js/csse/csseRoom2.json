@@ -1,20 +1,124 @@
-
-
 {
-    "csse": [
-      
-        {
-           "time": "",
-           "projectId": "",
-           "title": "test",
-           "studentName": "",
-           "studentMajor": "",
-           "projectType": "",
-           "facultyAdvisor": "",
-           "posterLink": "./posters/placeholder/comingsoon.jpg",
-           "abstract": ""   
-
-	}
-    
-    ]
+  "presentations": [
+    {
+      "time": "1:00 PM - 1:15 PM",
+      "projectId": "csse-2-100",
+      "title": "Jr. Software Development Engineer",
+      "studentName": "Michael Schwartz",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Afra Mashhadi",
+      "section": 2,
+      "poster": "./posters/csse/schwartzmichaeljulian_4281209_127882435_Jr. Software Development Engineer.png",
+      "abstract": "During my software engineering internship at Amazon, I focused on consolidating two separate analytics applications that each processed large datasets to generate market predictions and assess item and brand performance. Initially, these applications operated on parallel infrastructures and leveraged Apache Spark for data processing, along with a variety of AWS services for hosting and handling ad hoc analysis requests. However, running them independently led to unnecessary maintenance overhead, code complexity, and inconsistencies in their respective outputs.\n\n The primary goal of the project was to reduce the engineering effort required to maintain these separate environments. By merging the two applications into a unified system, the team aimed to streamline infrastructure management, improve script readability, and ensure data uniformity across all analyses. Further, centralizing the use of data sources and shared resources allowed for a more coherent data management strategy, minimizing the need for application-specific solutions, reducing overall operational complexity.\n\n The final integrated application successfully replaced the two standalone systems, yielding a more cohesive and flexible platform. This consolidated solution aligned with the organization’s standardized data expectations, improving reliability and consistency. Following the deployment, engineers spent less time on routine maintenance, and we achieved stretch goals—such as adding filtering capabilities—to allow the system to deliver more targeted, user-relevant outputs. As a result, the team could focus on advancing features rather than maintaining a complex set of packages.\n\n This project underscores the value of leveraging existing infrastructure, services, and packages to improve scalability, reduce engineering costs, and maintain data fidelity. By simplifying and unifying previously siloed systems, it became possible to achieve more predictable performance, enhance adaptability for future needs, and foster a more robust data-driven culture within the organization. Through this experience, I gained valuable insights into end-to-end software development in an agile environment, infrastructure optimization, and the integration of external data sources."
+    },
+    {
+      "time": "1:15 PM - 1:30 PM",
+      "projectId": "csse-2-115",
+      "title": "Machine Learning-Based Classification of Emergency Service Calls",
+      "studentName": "Rimjhim Sudhesh",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty research ",
+      "facultyAdvisor": "Dr. Michael Stiber",
+      "section": 2,
+      "poster": "./posters/csse/sudheshrimjhim_4245521_127919556_Machine Learning-Based Classification of Emergency Service Calls.png",
+      "abstract": "During the research internship, I worked on developing a tool to help emergency responders anticipate the types of 911 calls they might receive, thereby improving response efficiency. Currently, when someone calls 911, essential details are recorded in call logs. These logs contain valuable, often underutilized information that could help predict future emergency incidents, whether medical, fire-related, or police-related.\n\n In emergencies, timely response is crucial. Anticipating where and what types of incidents are likely to occur can assist emergency services in better allocating their resources. For example, it could involve positioning ambulances in areas with a higher likelihood of medical emergencies or preparing firefighters in regions at increased risk for fire-related incidents. Such insights could ultimately save lives by reducing response times and aligning resources more closely with potential demand.\n\n The results showed that there was an accuracy of 53% of predicting the type of the next call between three different types of events: Law, Emergency Medical Services (EMS), and Fire. Though this accuracy indicates room for improvement, it highlights the feasibility of leveraging historical 911 call data for predictive insights. By analyzing patterns in the call logs, the tool identified trends that could be further refined with additional data or enhanced algorithms. This initial success underscores the potential for predictive models to aid emergency services. The significance of this work lies in its ability to pave the way for predictive models to aid emergency services.\n\n The significance of this work lies in its ability to pave the way for data-driven decision making in resource allocation and emergency preparedness. With continued development, such a tool could greatly improve response times and ensure that emergency services are optimally equipped to handle potential incidents, ultimately saving lives and reducing the strain on emergency systems."
+    },
+    {
+      "time": "1:30 PM - 1:45 PM",
+      "projectId": "csse-2-130",
+      "title": "Team Recommendation Application",
+      "studentName": "Tyler Teifke ",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty research",
+      "facultyAdvisor": "Dr. Annuska Zolyomi",
+      "section": 2,
+      "poster": "./posters/csse/teifketylerrussell_3990822_127595416_Tyler_Teifke_Poster.JPG",
+      "abstract": "Over the Spring and Autumn of this year I worked with Professor Zolyomi to develop a web application for assigning students to teams based on their preferences and teamwork styles. This project not only helped me expand my knowledge of front and back-end development, but also gave me experience with group communication and deciphering code that had been written by someone else.\n\n First, over the Spring I went over the design of the application and multiple diagrams to get an understanding of both the internal design of the application, as well as how it would be used. In the final weeks of the Spring quarter, I went over the back-end and front-end builds that had been developed in order to familiarize myself with them.\n\n Next, over the Autumn quarter I worked with Professor Zolyomi and another student to update the application and increase its functionality. In the first half of the quarter, I updated the pre-existing database schema and further familiarized myself with the front and back-end code, while in the second half of the quarter my main task was updating the application. My biggest contribution to the application development was connecting the front-end to the back-end, which required rewriting the back-end code to use the Flask web framework. After connecting the front-end to the back-end I was mainly tasked with updating the application’s functionality, such as creating a functional sign up page.\n\n I am glad I was able to take part in this project, as it was the first time I really worked on a project with both a front-end and a back-end. This gave me a much better understanding of how both ends work and how to develop for the full technology stack."
+    },
+    {
+      "time": "1:45 PM - 2:00 PM",
+      "projectId": "csse-2-145",
+      "title": "Supporting Attention Through Technology",
+      "studentName": "Jack McFarland",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty research",
+      "facultyAdvisor": "Dr. Annuska Zolyomi",
+      "section": 2,
+      "poster": "./posters/csse/mcfarlandjack_4262379_127899516_Capstone poster (36 x 24 in) (2).png",
+      "abstract": "This project is focused on the development of a mobile app designed to support individuals with ADHD or those who struggle with attention and executive functioning generally. The app combines evidence based strategies to help users prioritize tasks, break them into actionable steps, set and track progress toward goals, and engage in social accountability features such as body doubling or shared goal tracking. By offering tools that address the unique challenges of ADHD and similar conditions, the app aims to foster motivation, improve organization, and support users in achieving their goals over time. The project has been informed by a comprehensive research phase conducted in three stages.\n\n In the first stage, team members engaged in a general review to establish a foundational understanding of the problem space. This included literature reviews on ADHD, successful app design, and task management strategies, as well as an exploration of popular task management apps on the market. Additionally, community feedback from ADHD-oriented online spaces was scraped and analyzed in an informal coding session to uncover user needs and preferences. The second stage involved synthesizing these findings during collaborative sessions where the team presented results, conducted design sprints, and began refining the app's unique value proposition and outlining our minimum viable product. This stage laid the groundwork for the app's core features and target audience which led to our third stage.This stage involved a systematic review of Google Play Store reviews from apps most relevant to the project. Using a structured framework established in group meetings, the team coded user feedback to identify patterns and insights specific to apps targeting similar users or with similar features.\n\n In conjunction with this research, our team has also submitted an IRB application to begin the next steps, which we have been preparing for through a combination of planning and skill development. This includes completing the Android Basics in Compose course to ensure technical readiness for development. And our plan involves conducting user interviews during winter quarter to validate and refine wireframes, followed by prototyping with a full app prototype slated for completion in March 2025."
+    },
+    {
+      "time": "2:00 PM - 2:15 PM",
+      "projectId": "csse-2-200",
+      "title": "Developing Localization-Compatible Software for Mercury Detection",
+      "studentName": "Dulguun Delgerbat",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Robert Dimpsey",
+      "section": 2,
+      "poster": "./posters/csse/delgerbatdulguun_4399318_127828263_FinalPoster.png",
+      "abstract": "During my internship at IEH, a global lab and consulting company, I worked on creating a new software program called “Guru” for mercury detection machines. This project aimed to replace an outdated program that was incomplete, poorly documented, and had limited functionality. The new software is designed to be more reliable, user-friendly, and compatible with international use. \n\n My work focused on addressing key challenges, including updating outdated code, ensuring the program supports multiple languages (such as right-to-left languages like Persian), and integrating the software with mercury detection hardware. I collaborated closely with a senior software developer, contributing to both front-end and back-end development, debugging, and testing. Additionally, I designed user interfaces and icons to enhance the program's usability and visual appeal. To better meet project goals, I also took the initiative to learn about the mercury detection process and lab testing methods. \n\n The final product is a modernized, localized software solution that resolves the issues of the previous program while introducing improved features, better documentation, and seamless hardware integration. These improvements make the program more efficient and capable of meeting the needs of IEH’s international operations. \n\n This project was significant because it tackled real-world challenges, such as localization and hardware-software compatibility, while contributing to safer and more accurate mercury detection processes. Beyond technical skills, this experience deepened my understanding of software development in a professional setting and reinforced the importance of teamwork and adaptability when solving complex problems."
+    },
+    {
+      "time": "2:15 PM - 2:30 PM",
+      "projectId": "csse-2-215",
+      "title": "Data Analytics and IT Internship at Boeing",
+      "studentName": "Jordan Lavigueure",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Robert Dimpsey",
+      "section": 2,
+      "poster": "./posters/csse/lavigueurejordan_4399850_127753870_497_poster_compressed.jpg",
+      "abstract": "During my 11 week Data Analytics and IT Internship at Boeing, I was placed on the Systems Integration and Factory IT team. My team’s responsibilities fell into one of two categories: automating and standardizing computer reimaging using scripting and windows active directory; oversee and manage all factory related IT projects. During my internship, I completed 3 key projects:\n\n Project 1: I led the network mapping of the Renton factory’s IoT network in preparation for its modernization and integration into Boeing’s broader private network. Previously isolated to avoid traffic congestion, this network lacked the security of the main Boeing system. By mapping dozens of nodes, I helped estimate the scope and cost for reintegration, ensuring both improved security and network efficiency. \n\n Project 2: As part of a hackathon challenge, I developed a solution to automate Boeing's candidate selection process for supplier readiness assessments. This previously time consuming process was critical in reducing defects and production delays. Using Python for data analysis and automation, I streamlined the process. I next translated the solution into an interactive Tableau dashboard which pulls real-time data from multiple databases via SQL, providing a clearer view of individual supplier readiness and higher risk candidates. \n\n Project 3: To improve tracking of a vendor’s performance on a multi-million dollar contract, I created a data dashboard within ServiceNow to monitor compliance on a regional level. This system enables my team to assess IT support performance across multiple sites by analyzing IT ticket data, segmented by location, to drive improvements in vendor performance management as well as a regional lens into IT related trends. \n\n Throughout my internship, I gained invaluable experience in data analytics, networking, and automation. The projects not only addressed critical business needs but also empowered my team with enhanced tools for decision-making, efficiency, and performance tracking. This experience solidified my understanding of how technology-driven solutions can optimize operations in large-scale organizations like Boeing."
+    },
+    {
+      "time": "2:30 PM - 2:45 PM",
+      "projectId": "csse-2-230",
+      "title": "Software Developer Engineer Internship",
+      "studentName": "Pranav Teja Reddy Manchikanti",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Robert Dimpsey",
+      "section": 2,
+      "poster": "./posters/csse/manchikantipranavtejareddy_3828201_127867015_Slide1.jpeg",
+      "abstract": " During my internship at Amazon, I worked on two key projects aimed at improving the customer experience for Kindle Unlimited (KU) subscribers. The first project involved integrating a Payment Selection Page (PSP) into the Out-of-Box Experience (OOBE) and regular sign-up flows for Kindle Unlimited. The second project focused on extending the \"Similar Titles\" recommendation feature, previously available on desktop, to mobile platforms. Apart from this, I worked on a stretch goal to eliminate security risks for my team by cleaning up dead code and removing unused security keys.\n\n The OOBE and regular sign-up flows for KU required customers in specific marketplaces (MX, JP, CA, AU) to have 1-Click Payment enabled, creating barriers to subscription and reducing potential new subscribers. Similarly, the absence of a mobile recommendation feature led to a suboptimal user experience, limiting customer engagement and retention. These issues represented significant opportunities for improvement in customer acquisition and satisfaction. Ultimately, we want to improve customer experience and provide them the best possible.\n\n The PSP integration enabled seamless payment selection across all targeted marketplaces, eliminating the dependency on 1-Click Payment and simplifying the sign-up process. This enhancement captured previously missed potential subscribers and provided a more inclusive experience. This implementation can boost signups by thousands per month. For the recommendation feature, extending \"Similar Titles\" to mobile platforms increased user engagement, which can result in easily 50k+ book borrows per month.\n\n Conclusively, the projects directly impacted customer satisfaction and engagement by addressing key pain points in the KU subscription and onboarding process. By improving accessibility and personalization, these solutions streamlined the customer journey, contributing to Amazon's mission of providing seamless and enjoyable experiences."
+    },
+    {
+      "time": "2:45 PM - 3:00 PM",
+      "projectId": "csse-2-245",
+      "title": "Automating Processes at SisAdmin",
+      "studentName": "Malachi Ojala ",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Robert Dimpsey",
+      "section": 2,
+      "poster": "./posters/csse/ojalamalachin_4262665_127920330_malachi_ojala_capstone_poster_png.PNG",
+      "abstract": "I worked at a local information technology company called SisAdmin, where I wrote scripts to automate computer maintenance tasks that would run on clients' Windows machines. Each script solved a specific problem with clients’ devices that would benefit from having an automated solution SisAdmin could reuse as needed. Scripts were written in PowerShell and automated using a deployment software called Immy Bot that can run scripts on custom schedules depending on the script's function.\n\n Some common script archetypes included updating programs, removing and reinstalling software, removing caches or other unneeded files, checking which machines had a specific program installed, and adding or removing software agents that IT companies use for monitoring and automating system administration tasks. \n\n The primary purpose of my work was to save SisAdmin engineers time and effort by reducing the need for slow manual fixes. Additionally, my scripts helped ensure that clients’ machines were kept secure and up to date, and created a cleaner, more consistent environment across all machines so that software could install and run without issues. In addition to reducing issues for SisAdmin, my work in writing and automating scripts had a direct positive impact on the security and reliability of the machines of over 40 companies across the King and Snohomish counties of Washington."
+    },
+    {
+      "time": "3:00 PM - 3:15 PM",
+      "projectId": "csse-2-300",
+      "title": "Yolk Labs Internship: Building Scramble",
+      "studentName": "Matthew Ovanesyan ",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Robert Dimpsey",
+      "section": 2,
+      "poster": "./posters/csse/ovanesyanmatthew_LATE_4154989_127922563_Poster-MO-final-draft.png",
+      "abstract": "Yolk Labs is a small software studio in Bellevue, Washington that implements digital strategy, creative design, and software for clients ranging from enterprise to idea-phase startups. Over my summer capstone, I was an intern software developer at Yolk Labs where I worked alongside the small Yolk Labs team.\n\n My project was to bootstrap a software platform, internally referred to as Scramble, that had been in its early stages for a few months. Scramble was meant to be a ERP (enterprise resource management) platform used to manage communities of professionals. Scramble is like a localized instance of LinkedIn with Trello built-in, including project management, event planning, a community forum, and more. My responsibility was to create an MVP for the product.\n\n Over the course of my internship, I designed and implemented the database using Postgres and Express, managed the database interactions and migrations using TypeORM, created a RESTful API for the platform in TypeScript, and connected the API to a few of the desired frontend functionalities using React and Zustand.\n\n At the end of my internship, I was able to implement the API and had implemented some of the frontend features like event planning and profiles. Towards the end stages of my project, I was assisted by another developer to implement the authentication service and advanced frontend features like posts.\n\n Building Scramble greatly improved my full stack skills and my independence as a developer. This project gave me a comprehensive lesson in full stack development. I feel much more confident as a software developer and have experience in multiple software development disciplines. The high-level independence I had over Scramble gave me invaluable experience working through uncertainty and problem solving at a large scale."
+    },
+    {
+      "time": "3:15 PM - 3:30 PM",
+      "projectId": "csse-2-315",
+      "title": "“LearnBraille101”: An Educational Website for Sighted People",
+      "studentName": "Jennifer Stibbins ",
+      "studentMajor": "CSSE",
+      "projectType": "Individual Project",
+      "facultyAdvisor": "Dr. Robert Dimpsey",
+      "section": 2,
+      "poster": "./posters/csse/stibbinsjennifermarie_LATE_3768136_127921505_PNG_24x36_Poster_v2.png",
+      "abstract": "The LearnBraille101 website is a nine-month individual capstone project created in order to help sighted people learn more about braille, blindness, and the blind community.\n\n The website gathers reputable online materials in a single place, prioritizing information provided by blind/low vision people and relevant organizations. Basic knowledge can go a long way.\n\n I hope that, from creating this website, at least one blind person will benefit. This can mean one fewer sighted person grabbing their cane or arm in an attempt to be helpful, or petting their working guide dog who “just looks so cute.” Maybe a software engineer will make a more accessible app, or an author will create a more nuanced, relatable character. Maybe, by reading this abstract now, you will think of some application of this information to your own life that I never even thought of. Or maybe it will convince you to go to my presentation, where I will be thrilled to have you. Questions or comments you might have can help me improve the quality of LearnBraille101. \n\n This project introduced me to HTML, CSS, JavaScript, and Azure remote deployment. Using python, I developed a rudimentary light-based braille recognition and conversion system from scratch. Beyond just code, LearnBraille101 pushed me to improve my networking skills. I reached out to professors, organizations, and the blind community for feedback, and adjusted accordingly. I learned how to use a screen reader (and how CSS can interfere with it), and test navigated each page. In an upcoming survey, I will pay blind/low vision users to describe their experiences with the website when using assistive technologies such as screen readers, refreshable braille displays, and digital magnifiers.\n\n The example braille image provided on the Convert page correctly performs dot detection and identification, as well as cell detection and identification, but the English output text is only available locally. As of December 2024, remote users see a webdriver error message instead of the correct output. For now, single-line, non-slanted PNG inputs are expected. \n\n Even though I spent three times the usual on this capstone, LearnBraille101 remains incomplete. I am looking forward to building it into something better. \n\n Thank you."
+    }
+  ]
 }

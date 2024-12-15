@@ -1,71 +1,28 @@
 {
-    "phys": [
-
+    "presentations": [
         {
-            "time": "0:00 AM - 0:00 AM",
-            "projectId": "project id",
-            "title": "title",
-            "studentName": "student name",
-            "studentMajor": "student major",
-            "projectType": "project type",
-            "facultyAdvisor": "faculty advisor",
-            "posterLink": ".posters\placeholder/comming_soon.jpg"
-
-        },
-         {
-            "time": "0:00 AM - 0:00 AM",
-            "projectId": "project id",
-            "title": "title",
-            "studentName": "student name",
-            "studentMajor": "student major",
-            "projectType": "project type",
-            "facultyAdvisor": "faculty advisor",
-            "posterLink": ".posters\placeholder/comming_soon.jpg"
-
+            "time": "",
+            "title": "Lead in cinnamon",
+            "studentName": "Raquel Angulo-Morales",
+            "studentMajor": "Chemistry: Bio-chemistry (B.S.)",
+            "facultyAdvisor": "Dr. Dan Jaffe",
+            "poster": "./posters/phys/Raquel Angulo-Morales Poster Cinnamon project-1.png"
         },
         {
-            "time": "0:00 AM - 0:00 AM",
-            "projectId": "project id",
-            "title": "title",
-            "studentName": "student name",
-            "studentMajor": "student major",
-            "projectType": "project type",
-            "facultyAdvisor": "faculty advisor",
-            "posterLink": ".posters\placeholder/comming_soon.jpg"
-
-        },
-         {
-            "time": "0:00 AM - 0:00 AM",
-            "projectId": "project id",
-            "title": "title",
-            "studentName": "student name",
-            "studentMajor": "student major",
-            "projectType": "project type",
-            "facultyAdvisor": "faculty advisor",
-            "posterLink": ".posters\placeholder/comming_soon.jpg"
-
+            "time": "",
+            "title": "Analysis of Student Outcomes in General Chemistry Lecture",
+            "studentName": "Ethan Gausee",
+            "studentMajor": "Chemistry (B.A.)",
+            "facultyAdvisor": "Dr. Charity Lovitt",
+            "poster": "./posters/phys/Final Draft.png"
         },
         {
-            "time": "0:00 AM - 0:00 AM",
-            "projectId": "project id",
-            "title": "title",
-            "studentName": "student name",
-            "studentMajor": "student major",
-            "projectType": "project type",
-            "facultyAdvisor": "faculty advisor",
-            "posterLink": ".posters\placeholder/comming_soon.jpg"
-
-        },
-         {
-            "time": "0:00 AM - 0:00 AM",
-            "projectId": "project id",
-            "title": "title",
-            "studentName": "student name",
-            "studentMajor": "student major",
-            "projectType": "project type",
-            "facultyAdvisor": "faculty advisor",
-            "posterLink": ".posters\placeholder/comming_soon.jpg"
-
+            "time": "",
+            "title": "Designing and Building a Circuit for a Pulsed Laser",
+            "studentName": "Carol Miu\n\nJoey Del Gianni",
+            "studentMajor": "Physics (B.S.)\n\nPhysics (B.S.)",
+            "facultyAdvisor": "Dr. Subramanian Ramachandran",
+            "poster": "./posters/phys/Poster Del Gianni Miu Final Autumn 2024.png"
         }
     ]
 }

@@ -36,7 +36,6 @@ function preprocess_data(query_result) {
 
 function createPanels(panels) {
 
-    console.log(panels)
     const content_block = document.getElementsByClassName("acContent_Block");
     const panel_sections = new Map();
     let idx = 0
@@ -47,7 +46,6 @@ function createPanels(panels) {
             panel_sections.set(element.panel, idx)
             idx++
         }
-
         const divElement = document.createElement('div');
         divElement.className = 'acContent';
 
@@ -62,6 +60,7 @@ function createPanels(panels) {
 
         for (let i = 0; i < presentations.length; ++i) {
             const container = i % 2 === 0 ? cols[0] : cols[1];
+            
             let pres = createPresentationBox(presentations[i], container, false, false);
             let img = pres.querySelector('img');
             img.setAttribute('onclick', 'onClick(this)');

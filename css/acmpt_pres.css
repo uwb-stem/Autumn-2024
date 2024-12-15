@@ -24,10 +24,14 @@
 .presentation h4 {      /* student name */
     /* margin: 15px 0 15px 0; */
     font-family: 'EncodeSans-medium';
-    width: 350px;
+    width: 140px;
+    font-size: medium;
 }
 
-
+.majors{
+    margin-top:17px;
+    margin-right: 27rem;
+}
 
 .presentation li {
     justify-content: left;
@@ -41,7 +45,6 @@
     min-width: 300px;
     max-width: 300px;
 }
-
 
 
 

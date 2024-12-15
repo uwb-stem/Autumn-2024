@@ -1,20 +1,112 @@
-
-
 {
-    "csse": [
-      
-        {
-           "time": "",
-           "projectId": "",
-           "title": "test",
-           "studentName": "",
-           "studentMajor": "",
-           "projectType": "",
-           "facultyAdvisor": "",
-           "posterLink": "./posters/placeholder/comingsoon.jpg",
-           "abstract": ""   
-
-	}
-    
-    ]
+  "presentations": [
+    {
+      "time": "1:00 PM - 1:15 PM",
+      "projectId": "csse-3-100",
+      "title": "Quicklist Genie Internship Project",
+      "studentName": "Noa Uritsky",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Wooyoung Kim",
+      "section": 3,
+      "poster": "./posters/csse/uritskynoa_3827396_127914142_QUICKLIST GENIE INTERNSHIP PROJECT (1).png",
+      "abstract": "Quicklist Genie is an Excel add-on developed during an internship with Solid Commerce, a startup focused on eCommerce software. The tool addresses the challenge of converting product information stored in Excel into a format compatible with Amazon’s product taxonomy. Many businesses struggle with manual data entry and formatting when listing products on Amazon, which can lead to inefficiencies and errors. Quicklist Genie automates this process, streamlining workflows for users.\n\n This project involved designing and implementing features to enrich product descriptions and match taxonomy. OpenAI’s API was used to generate detailed product descriptions, while custom algorithms were developed to align data with Amazon’s taxonomy. Early work included API session management and keyword extraction methods, while later phases focused on integrating OpenAI functionality and refining the taxonomy mapping process. In developing this project, an agile methodology was used since giving users a working demonstration allowed for more in-depth critique and feedback.\n\n The results include a tool that outputs a structured Excel sheet containing enriched product descriptions and categories formatted to Amazon’s standards. Businesses can save time and reduce errors, allowing them to focus on other priorities instead of manual listing creation. This project highlights the potential for automation in solving common eCommerce challenges and demonstrates the value of combining data analysis with modern APIs. "
+    },
+    {
+      "time": "1:15 PM - 1:30 PM",
+      "projectId": "csse-3-115",
+      "title": "Network Motif Visualizer Web Application",
+      "studentName": "Hannah Pham",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty research",
+      "facultyAdvisor": "Dr. Wooyoung Kim",
+      "section": 3,
+      "poster": "./posters/csse/phamhannah_4134838_127915183_CSS497 Capstone Poster (Posters (Landscape, 54)).png",
+      "abstract": "NetMotif is a web-application developed for detection and analysis of network motifs. Network motifs are recurring and significant subgraph patterns in a network that provide profound insights into the underlying structural and functional characteristics of complex networks. The application can be found in biological networks such as Gene Regulatory Networks, Protein-Protein Interaction Networks, etc. Beyond biological applications, Network Motif extends to various domains such as social network analysis, computational neuroscience, ecological network studies, and systems biology. At the time of this paper, existing web-applications are out-dated and lack visualization. Standalone softwares such as FANMOD requires local installation on a Windows Operating System. This creates a substantial barrier for researchers and students who may lack the technical infrastructure or computational resources to perform complex network analysis. The project addresses the lack of web-based network motif analysis tools and offers a more accessible and user-friendly tool in network analysis that researchers and students face when interpreting complex networks. The web-application is securely deployed on the school's server, ensures robust performance and data integrity, making it an accessible tool for interdisciplinary research. The development resulted in a securely deployed running web application on the school system/server. By offering a more accessible web application, researchers and students may easily uncover more fundamental insights in biological and other complex network systems."
+    },
+    {
+      "time": "1:30 PM - 1:45 PM",
+      "projectId": "csse-3-130",
+      "title": "Software Engineer Intern at DashBeast",
+      "studentName": "Thomas Ampalloor",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Min Chen",
+      "section": 3,
+      "poster": "./posters/csse/ampalloorthomasbenjamin_3826568_127816710_ThomasAmpalloor_CapstonePoster.jpg",
+      "abstract": "During this internship I had the opportunity to accept a dual role of both a backend developer and project manager intern. Therefore, my responsibilities included leading stand-ups, creating Azure DevOps tickets, progress checking the different developers as well as developing the backend endpoints, reviewing GitHub pull requests, creating multiple build and release pipelines, designing the database schemas and refactoring the backend code. These pivotal tasks ensure the deployment of DashBeast 1.0, the first prototype in the company’s history. DashBeast 1.0 includes a full cloud-based fitness app which connects to a piece of hardware attached to a physical workout machine, ultimately keeping track of workout plans, user repetitions, sets, and other statistics. This comprehensive system is meticulously designed to provide intuitive user experience and robust backend support, ensuring a smooth and efficient workflow for both casual fitness enthusiasts and seasoned professionals. \n\n As stated earlier, a prominent problem which I was tasked with was the refactoring of our backend code. At the time, we had over 70+ endpoint/ API calls, resulting in an endpoint cluster. Endpoint clusters have numerous cons to them, significantly outweighing the pros. Moreover, endpoints clusters proved to increase complexity as it adds a layer of abstraction that can make the system harder to understand, especially in large scale projects. It causes confusion and can cause overhead or latency from the lack of organization. A solution which was brainstormed by the development team was the separation of the backend into the data access and service layers. The data access layer would include repositories for each API. For example, for the User Data API, an API which includes endpoints for the user information, we created a new class named “User_Repository”. This repository would include basic functions such as .getUser(id) and .DeleteUser(id) which would then be called in the service layer.\n\n All in all, this internship has made me realize my ability to learn new topics quickly and ultimately utilize them in the professional setting. This is primarily shown through my work in learning how to lead stand ups, understanding the application design to the point of implementation etc. I am incredibly thankful to have received this position as performing a dual role is providing me with experience in all the moving parts of the development of a software application."
+    },
+    {
+      "time": "1:45 PM - 2:00 PM",
+      "projectId": "csse-3-145",
+      "title": "I'poyit - Blackfoot Language Learning App",
+      "studentName": "Fangxia Ding",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty research",
+      "facultyAdvisor": "Dr. Min Chen",
+      "section": 3,
+      "poster": "./posters/csse/dingfangxia_4351601_127880491_Poster_Fangxia1.6MB.jpg",
+      "abstract": "Blackfoot language is an endangered language spoken by the Blackfoot people of North America. To help preserve this language and make it accessible to more learners, we developed I'poyit, a cross-platform application that supports users in learning Blackfoot. When I joined the team, the app already had the basic learning modules in place and was in the debugging phase. My contributions involved comprehensive cross-platform testing and the design and implementation of the “Commitment Time” feature. I conducted extensive testing, including unit testing, functional testing, compatibility testing, and usability testing, to ensure the app’s seamless performance across Android, iOS, and web platforms. The goal of the 'Commitment Time' feature is to allow users to customize their goals, track their progress, and share their achievements, thereby enhancing motivation and providing a sense of accomplishment. During the development of the \"Commitment Time\" feature, I conducted rigorous unit testing to maintain code reliability and stability and produced detailed documentation to support long-term maintainability. Additionally, I utilized Firebase to enable real-time data synchronization and designed an intuitive, user-friendly interface that enhances the overall learning experience. This project holds significant value as it merges modern technology with cultural preservation, creating a tool that promotes both language learning and cultural engagement. My contributions improved the app’s usability and personalization. On a personal level, I gained valuable experience in full-stack development, mastering technologies such as Flutter, Firebase, Android Studio, and Xcode. I also developed skills in collaborative teamwork, which will benefit me in my future career. "
+    },
+    {
+      "time": "2:00 PM - 2:15 PM",
+      "projectId": "csse-3-200",
+      "title": "Capstone Project MeTILDA Research",
+      "studentName": "Adonyas Kibru",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty research",
+      "facultyAdvisor": "Dr. Min Chen",
+      "section": 3,
+      "poster": "./posters/csse/kibruadonyas_4352046_127866606_Adonyas_presentation_poster.png",
+      "abstract": "During my capstone project, I worked on improving the feedback feature of the MeTILDA platform by updating it from a rigid, hard-coded structure to a dynamic, database-driven solution. This update was necessary to provide greater flexibility, scalability, and ease of maintenance, ensuring the features could adapt to evolving user needs.\n\n I started with creating and managing database tables in PgAdmin with PostgreSQL. I then implemented CRUD (Create, Read, Update, Delete) operations to ensure reliable data storage and retrieval. I developed API endpoints on the backend using Flask and Python to handle data processing, database integration, and query executions. Additionally, I updated the front end with React and TypeScript, building an interactive interface seamlessly connected to the backend systems. This ensured a smooth and efficient experience for both administrators and feedback providers. \n\n This work resulted in a highly adaptable feedback system that allows administrators to dynamically add, remove, or modify questions and options without altering the codebase. This adaptability keeps the system relevant and scalable while storing user feedback in a structured database, which can later be used to provide insights for future platform improvements.\n\n This project helped me gain hands-on experience in understanding and working with existing codebases, implementing frontend and backend solutions, and connecting them effectively. I improved my Python and database management skills while learning new front-end development tools like React, TypeScript, HTML, and CSS. More importantly, I developed a practical understanding of designing scalable, user-friendly systems, showcasing my growth as a developer."
+    },
+    {
+      "time": "2:15 PM - 2:30 PM",
+      "projectId": "csse-3-215",
+      "title": "Business Case Validation Tool",
+      "studentName": "William Kluck",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Min Chen",
+      "section": 3,
+      "poster": "./posters/csse/kluckwilliam_4351583_127913577_Posterboard Template.png",
+      "abstract": "This capstone project at Elevance Health aimed to develop a predictive model to enhance cost and benefit estimation for business programs. The project addressed the pervasive issue of inaccurate financial forecasting which leads to inefficiencies in resource allocation and compliance with government mandates. Specifically, the predictive model’s goal was to refine program cost accuracy and provide a data-driven foundation for budget assessments.\n\n Using historical data from 175 business cases from 2022 and 2023, the project identified nine inputs that affected prediction accuracy. Various machine learning algorithms were explored, with Bayesian Ridge Regression emerging as the optimal choice due to its robust handling of the available dataset and its predictive reliability. The model demonstrated notable performance improvements, including a 16% reduction in mean absolute error and a 29% improvement in median absolute percentage error. These advancements translate into more precise financial predictions reducing the risk of over- or under-estimations.\n\n This work is significant because it empowers executives, project managers, and funding sources with a reliable tool for early budget assessment, which can improve decision-making. By integrating machine learning methods, the project addresses both current inefficiencies and sets the foundation for scaling enhancements in the future. The resulting tool, accessible from a command-line interface, is a step toward organizational adoption, with plans to make it more user-friendly in the future by making the tool available on the Bot Marketplace (an internal landing page for in-house resources.\n\n In summary, this project serves as a proof-of-concept for machine learning to transform cost estimation practices, enabling Elevance Health to optimize resource planning and comply more effectively with regulatory demands. The project was handed off to the next project owner with a guide to help focus on expanding the dataset and refining the model to achieve even greater accuracy and usability."
+    },
+    {
+      "time": "2:30 PM - 2:45 PM",
+      "projectId": "csse-3-230",
+      "title": "Front-End Internship @ Acquaintance Media",
+      "studentName": "Mandeep Masoun",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Min Chen",
+      "section": 3,
+      "poster": "./posters/csse/masounmandeep_4138741_127907066_Front-End Internship @ Acquaintance Media MandeepMasoun.png",
+      "abstract": "During my capstone internship with Acquaintance Media, I primarily focused on creating accessible and engaging user interfaces for web applications. I learned how to design web pages from using HTML/CSS all the way to Wordpress. I also used the Bootstrap framework to understand/create a better structure for my web pages. While also utilizing small bits of PHP and JavaScript to implement dynamic features and animations. Along with this, I gave myself a challenge where I would also try to incorporate user centered design to try and stay in line with what I learned from my UX classes at UWB.\n\n This project's purpose was to create scalable web solutions that addressed specific client and user requirements. By focusing on efficiency, reliability, and user design, the goal was to enhance the websites' overall functionality and accessibility.\n\n The outcome was a set of functional webpages demonstrating the ability to create a functional, usable, and accessible website. This allowed for a more streamlined user experience and demonstrated the practicality of combining newly learned skills with problem-solving. My mentor then reviewed the designs, providing feedback to refine the design and structure and fix any bugs. \n\n The project resulted in successful deployment of multiple fully functional web pages. By leveraging dynamic technologies and prioritizing effective design principles, the project showed the importance of developing web applications that meet the needs of our clients.\n\n This internship is significant because it not only taught me the value of using industry-standard technologies to develop websites but also provided me with the foundational knowledge of why things work the way they do. The internship serves as a testament to the value of integrating innovative solutions, good design, and efficient technologies in software development."
+    },
+    {
+      "time": "2:45 PM - 3:00 PM",
+      "projectId": "csse-3-245",
+      "title": "Garnet Internship",
+      "studentName": "Abhishek Muthabatulla",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Min Chen",
+      "section": 3,
+      "poster": "./posters/csse/muthabatullaabhishek_3959462_127814763_Capstone Poster - Muthabatulla - Garnet (1)_00001.jpg\n\n./posters/csse/muthabatullaabhishek_3959462_127814766_Capstone Poster - Muthabatulla - Garnet (1)_00002.jpg",
+      "abstract": "Introduction\n Distributed systems need fast, reliable, and scalable storage to handle large workloads efficiently. Garnet, a remote cache-store from Microsoft Research, was designed to meet these demands. This project focused on studying Garnet's design, improving its features, and testing its performance in real-world scenarios. Objective\n\n The goal was to make Garnet faster, more reliable, and easier to use. Key tasks included improving its ability to work across multiple servers (sharding), making it recover from failures more efficiently, and adding support for advanced storage and transaction handling. The project also compared Garnet's performance with other systems like Redis to measure its effectiveness in large-scale applications.\n\n Methodology\n We used software development techniques and testing to analyze and improve Garnet. Performance tests were run on both artificial and real-world data to find areas for improvement. Changes were made to how Garnet handles data replication, backups, and communication. We also tested how well it could recover from system failures under heavy workloads.\n\n Results\n The updates reduced data access delays by up to 30% in some tests and improved overall system speed when handling multiple requests at once. Recovery times during failures were cut by 20%, making Garnet more reliable. In storage tests, Garnet performed as well as or better than Redis, particularly in setups involving tiered storage.\n\n Conclusion and Significance\n This project demonstrated that Garnet is a strong option for distributed systems needing high-speed, scalable, and reliable storage. By improving Garnet and confirming its capabilities, the project highlighted its value for modern technology needs and helped prepare it for broader use in the industry."
+    },
+    {
+      "time": "3:00 PM - 3:15 PM",
+      "projectId": "csse-3-300",
+      "title": "AI-Powered Small and Medium-Sized Business Web Generator ",
+      "studentName": "Sahong Song",
+      "studentMajor": "CSSE",
+      "projectType": "Individual project",
+      "facultyAdvisor": "Prof. Min Chen",
+      "section": 3,
+      "poster": "./posters/csse/songsahong_4327704_127919650_poster_Song.jpg",
+      "abstract": "In the digital age, small and medium-sized businesses (SMBs) often lack the resources and skills to create an effective online presence, which limits their potential to reach new customers. This capstone project aims to address this challenge by developing an AI-powered console application that enables SMBs to generate a professional webpage with minimal effort. The application uses Java Spring Boot for backend operations, MySQL for database management, and a NodeJS web server to serve the generated webpages.\n\n Businesses can input their essential information and design preferences through a user-friendly interface. Leveraging OpenAI’s Large Language Model, the system transforms this input into a fully functional webpage, complete with a well-written content structure, image gallery, and interactive map. The resulting webpage is accessible via a web browser, providing businesses with a cost-effective solution to establish their digital presence quickly and efficiently. This project’s significance lies in its ability to democratize AI technology. By automating webpage creation, it eliminates technical barriers, allowing SMBs to focus on their core operations while reaching more customers online. The project empowers SMBs to thrive in the digital economy and expand their reach."
+    }
+  ]
 }

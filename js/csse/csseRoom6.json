@@ -1,20 +1,89 @@
-
-
 {
-    "csse": [
-      
-        {
-           "time": "",
-           "projectId": "",
-           "title": "test",
-           "studentName": "",
-           "studentMajor": "",
-           "projectType": "",
-           "facultyAdvisor": "",
-           "posterLink": "./posters/placeholder/comingsoon.jpg",
-           "abstract": ""   
+  "presentations": [
+    {
+      "time": "1:00 PM - 1:15 PM",
+      "projectId": "csse-6-100",
+      "title": "Using Diffusion Transformers to Predict High Resolution Protein Structures from Cryo-EM Maps",
+      "studentName": "Haydn Tamura",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty research",
+      "facultyAdvisor": "Dr. Dong Si",
+      "section": 6,
+      "poster": "posters/csse/tamurahaydn_4071671_127816069_TamuraHaydnPoster.jpg",
+      "abstract": "Using Diffusion Transformers to Predict High Resolution Protein Structures from Cryo-EM Maps\n\n Haydn Tamura\n\n The Data Analysis and Intelligent Systems (DAIS) research group is advancing the development of DeepTracer, a deep learning model for rapid de novo macromolecular structure prediction and DNA/RNA identification from cryogenic electron microscopy (cryo-EM) maps. Although DeepTracer exhibits strong accuracy in predicting protein structures and nucleic acid data, its performance declines with low-resolution input maps (greater than 5Å). \n\n In my capstone project, I collaborated with the DAIS team on a Diffusion Transformer to generate high-resolution protein structure data from cryo-EM maps. The Diffusion Transformer leverages the capabilities of the transformer architecture, known for its context awareness and knowledge retention (responsible for the current-day LLM boom), alongside the high-quality data generation of diffusion (the technology powering AI image generation), to accurately produce high-resolution atomic positions for specific atom types. \n\n Our methodology employs a heavily modified version of DiT-3D, a 3D diffusion transformer that generates 3D structures from noisy point clouds. We condition our diffusion process on the input cryo-EM map, which guides the generation of structures so they are related to the specific map input. This approach yields atom locations that DeepTracer can utilize for comprehensive structure prediction and refinement. \n\n Currently, we are focused on generating carbon-alpha (CA) atoms, but we plan to expand our output to include carbon and nitrogen atoms, as well as secondary structure and amino acid data. Our outputs are derived from cryo-EM maps with known atomic structures closely aligning with the target CA atom positions. The next steps include experimenting with various model hyperparameters to enhance model accuracy further, with the ultimate goal of integrating our diffusion transformer into DeepTracer 3.0, replacing the U-Net prediction step."
+    },
+    {
+      "time": "1:15 PM - 1:45 PM",
+      "projectId": "csse-6-115",
+      "title": "Appointment Scheduling System",
+      "studentName": "Monica Dinh\n\nKimia Nehchiri",
+      "studentMajor": "CSSE\n\nCSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Dong Si",
+      "section": 6,
+      "poster": "./posters/csse/dinhmonicavy_3877797_127910570_Capstone Poster.jpg",
+      "abstract": "As Seattle’s Best Smiles transitions into an oral surgery practice specializing in cosmetic treatments like dental implants, ensuring an efficient office workflow has become a top priority. The practice faced challenges with scheduling and needed a more effective system to manage patient appointments. Additionally, their goal is to provide patients with accessible information about the practice without requiring extensive independent research. Their goal was to create a user-friendly website that enables patients to easily schedule appointments and explore available services.\n\n To meet these needs, I focused on designing and developing the front-end interface of the website. The design prioritized creating a welcoming, intuitive, and easy to navigate user experience for patients. Using React and Tailwind CSS, I built a modernized interface that simplifies browsing the website and scheduling appointments.The design reflects the office’s professionalism through a clean aesthetic, this is seen by a comprehensive service page and a gallery showing the office environment and treatment results.\n\n As a result, Seattle’s Best Smiles now has a website that allows patients to easily navigate to learn about services offered, get acquainted with the doctor, view treatment options, and book appointments, all in one place. This efficient approach to patient interaction reduces administrative workload, allowing the office staff to dedicate more time to critical tasks. Through this project, I gained valuable experience in front-end development, user experience design, and user-centered websites.\n\n\n Kimia Nehchiri \n\n Appointment Scheduling System\n\n My partner and I created an appointment scheduling system for a local dentist’s office in Kirkland, Washington. At the time that we started, all scheduling was done through the phone or in person and there wasn’t an easy way for patients to schedule appointments and the practice needed an effective way to automate it. This created an opportunity for me to gain experience in building a real world application with a full stack of technologies, while providing a seamless experience for both patients and staff, and addressing pain points like scheduling conflicts and manual record-keeping.\n\n We used React.js to build our frontend, and employed Firebase tools to authenticate accounts, store information, host our website, and implement servelss-functions due to its trustworthy reputation. Throughout the project I gained experience in designing and building React components, routing for dynamic page navigation, using external tools, testing, and writing logic to manage scheduling features like appointment booking, rescheduling, and cancellation.\n\n The result is a fully functional web application where patients can sign up, schedule appointments automatically, as well as view past visits, reschedule, or cancel appointments without administrative help. The admin view allows staff to set availability which gets stored in firestore, then displayed to patients to choose from when selecting an appointment as well as display their previous visits and notes. This simplifies the scheduling process and allows patients not only to visit the website and learn about the practice, but to make an appointment at the same time with ease." 
+    },
 
-	}
-    
-    ]
+    {
+      "time": "1:45 PM - 2:00 PM",
+      "projectId": "csse-6-145",
+      "title": "Overhaul of a Rehabilitation Robot for Stroke Patient Therapy",
+      "studentName": "Aditya Pillai",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty research",
+      "facultyAdvisor": "Dr. Dong Si",
+      "section": 6,
+      "poster": "./posters/csse/pillaiadityasantosh_4096489_127825820_PillaiA Capstone Poster -rev1.jpg",
+      "abstract": "Overhaul of a Rehabilitation Robot for Stroke Patient Therapy​\n\n Aditya Pillai\n\n The Gizmo line of robots, comprised of Gizmo 1 and Gizmo 2, are stroke rehabilitation robots intended to help stroke patients suffering from a certain type of neurophysical disorder as a symptom of a previous stroke event that has affected the brain. \n\n Gizmo 2.0 is a robot made to help rehabilitate patients suffering from visual (or visuospatial) neglect by training their ability to track objects moving within their immediate field of view. \n\n This project involved the repair of Gizmo 2.0 and its hardware and software components. The initial construction of Gizmo 2.0 was not done by me but by previous UWB students from mechanical, electrical, and software engineering majors. However, within a few quarters of this project being completed, many of the components became inactive and faulty for reasons unknown. \n\n My role within this project was to identify faults within these inactive components on Gizmo 2.0, and either develop a modified architecture or design and implement an alternative architecture to allow these components to go back to performing their intended function. \n\n This project has allowed me to change Gizmo 2.0's code architecture so that instead of being unable to function, Gizmo 2.0 can now fully work as intended, with additions made to it's software to allow for better adaptation to patient behavior and simplified development for future developers to make it more accessible."
+    },
+    {
+      "time": "2:00 PM - 2:15 PM",
+      "projectId": "csse-6-200",
+      "title": "Feedback Implementation - Amazon AI Chatbot",
+      "studentName": "Vincent Nguyen",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Greetha Thamilarasu",
+      "section": 6,
+      "poster": "./posters/csse/nguyenvincent_4202845_127909082_CSS497_Vincent_Nguyen_Poster.png",
+      "abstract": "Artificial intelligence (AI) remains a growing field with evolving technology releasing in the past years. Nine out of ten organizations seek to adopt AI as a form of competitive advantage. While AI remains largely reliable, there remains faults or errors within its responses. Whether to attribute the issue to the Large Language Model (LLM) or the knowledge base used for training, the reasoning behind the inaccuracy may remain unknown.\n\n Intelligent Recommendations and Insights System (IRIS) an Amazon proprietary Knowledge-as-a-Service developed to address ticket analyzation and operate as a chatbot that Amazon employees query to receive answers to questions relating to the knowledge base. IRIS is largely accurate and provides sufficient information, but relies on documentation stored in the knowledge base to reply to questions. This leads to no response or misinformation if the information is not present within the knowledge base or the knowledge base is outdated.\n\n To remediate this issue, a feedback feature is implemented to the interfaces that the IRIS chatbot is available as, a Slackbot and standalone websites. By including a feedback option for IRIS end users, inaccurate or incomplete information can be collected. The data is stored, converted to a SPICE dataset, and visualized through a dashboard to IRIS admin users. This visualization allows the admin users to review the current IRIS knowledge base state and deduce any common feedback that is needed to be acted upon. "
+    },
+    {
+      "time": "2:15 PM - 2:30 PM",
+      "projectId": "csse-6-215",
+      "title": "Evaluating Federated Learning Defense Algorithms Across Machine Learning Models",
+      "studentName": "Oliver Jeremiah Fernandez",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty rersearch",
+      "facultyAdvisor": "Dr. Greetha Thamilarasu",
+      "section": 6,
+      "poster": "./posters/csse/fernandezoliverjeremiah_3764088_127904610_Capstone Poster v3.png",
+      "abstract": "Evaluating Federated Learning Defense Algorithms Across Machine Learning Models\n\n Federated learning is a machine learning technique that allows for the decentralization of model training that addresses the concerns of data privacy and security, as well as allowing devices of different specifications to collectively contribute to training. However, even with these benefits over traditional techniques, if a client’s dataset was already poisoned from the beginning, the model’s overall behaviour would be negatively affected without any protection mechanisms in place.\n\n Here we evaluated how effective defense algorithms against label flipping and bit-per-pixel poisoning attacks are in a federated learning environment compared to locally trained models in similar attacks. We implemented three federated learning models; FedAvg, Krum, and multi-Krum; as well as three generative adversarial network models (GANs); deep conventional GAN, conditional GAN, and Wasserstein GAN; to compare against each other. All six models used MNIST training data and were subjected to 10%, 20%, and 40% of clients being malicious, with their training data being poisoned using first the label flipping attack and then the bit-per-pixel attack. We then recorded the accuracy of the models – how often it was produced the correct image with the correct label.\n\n We found that the defense algorithm for federated learning rejected most trained weights, leading to underfitting models. This meant that the traditionally trained GANs performed better in cases with fewer malicious clients, but accuracy became more similar when a higher percentage of malicious clients were introduced with both label flipping and bit-per-pixel attacks. This shows that the defense algorithm successfully addressed the poisoning attacks, performing similarly to locally trained models while having the advantages of federated learning."
+    },
+    {
+      "time": "2:30 PM - 2:45 PM",
+      "projectId": "csse-6-230",
+      "title": "Faculty Connect",
+      "studentName": "Eric Samitov",
+      "studentMajor": "CSSE",
+      "projectType": "Individual project",
+      "facultyAdvisor": "Dr. Marc Dupuis",
+      "section": 6,
+      "poster": "./posters/csse/samitoveric_4356756_127913600_Faculty Connect-2.png",
+      "abstract": "Faculty Connect \n\n Eric Samitov \n\n Problem:\n\n Finding faculty for capstone projects can be a challenging and time-consuming process for students, often involving numerous email exchanges and uncertainty about professors’ availability. Similarly, faculty members face difficulties in identifying students who meet their specific project needs and interests. This lack of a centralized system complicates the process, making it harder for faculty to gauge student interest and efficiently manage project participation. \n\n Methods:\n Faculty Connect is a result of extensive research into the needs of students and faculty, as well as a detailed evaluation of tools and technologies. After considering multiple options, I chose a combination of phpMyAdmin for database management, VS Code for development, and the UW server for hosting. This decision was based on the adaptability and efficiency these tools offered for the project’s requirements. Over six months, I learned PHP from the ground up, mastered advanced features of phpMyAdmin, and significantly improved my proficiency in VS Code. The project also involved in-depth research into the target audience to ensure the platform addressed key pain points effectively. \n\n Results:\n Faculty Connect provides a seamless, scalable solution for streamlining faculty-student interactions. Professors can share their availability and needs transparently, while students can easily find projects that match their interests. This tool reduces communication barriers, fosters better collaboration, and enhances the overall capstone experience for both students and faculty. \n\n Conclusion:\n Faculty Connect not only addresses a pressing need in academic project management but also demonstrates the practical application of software design, database systems, and user-centered research. Future enhancements include adding polling tools and expanding faculty support for subsequent academic years. This project highlights the potential of targeted research and effective technology integration in solving real-world challenges."
+    },
+    {
+      "time": "2:45 PM - 3:00 PM",
+      "projectId": "csse-6-245",
+      "title": "Balancing Justice: Reducing Bias and Promoting Fairness in Sentencing and Family Law",
+      "studentName": "Sarah Bird",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty research",
+      "facultyAdvisor": "Dr. Marc Dupuis",
+      "section": 6,
+      "poster": "./posters/csse/birdsarah_4173068_127909749_Blue Contemporary Editorial Landscape University Research Poster.png",
+      "abstract": "Balancing Justice: Reducing Bias and Promoting Fairness in Sentencing and Family Law\n\n By Sarah Bird\n\n Project type: Research\n\n Faculty advisor: Professor Marc Dupuis\n\n In the United States, it is widely recognized that there is a need for criminal justice reform and several approaches to doing so. This paper aims to describe an AI and machine learning driven system that is designed to reform the court proceeding and sentencing operations within criminal court cases. By focusing on reforming this aspect of the criminal justice system, a data driven system will be able to accurately analyze historical and real time data and find correlations between various crimes to calculate equal prison sentences while also considering race, gender, socioeconomic circumstance, mental health, access to attorneys and other similar qualities. This system will reduce unfairness and bias within the criminal justice system and level the playing field for all defendants in the criminal justice system. By analyzing crime correlations with mental health issues and successful treatment pathways, the system can make a recommendation on an appropriate mental health treatment pathway based off the data. \n\n On another note, family law is also subject to bias or lack of expertise. This system will be trained on family law historical data and mental health treatment success rates to make recommendations in child welfare and custody cases. The system could pinpoint what aspects of a past case led to successful outcomes and what led to negative outcomes. This would achieve fairness in custody cases and protect the best interests of any child.\n\n While it may sound as if the system will be making recommendations for certain treatment pathways, the main goal is to have a system that flags certain aspects of a case as it goes through legal proceedings. Once flagged in various areas, the case will need to be reviewed more closely by a judge to determine why the case deserves to be an exception from the calculated norm."
+    }
+  ]
 }

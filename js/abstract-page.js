@@ -1,13 +1,12 @@
-// alert("hello");
-//const projectId = location.search.substring(1);/
-//const room = projectId[5];
-//const jsonfile = 'js/csse/csseRoom' + room + '.json' 
+const projectId = location.search.substring(1);
+const room = projectId[5];
+const jsonfile = 'js/csse/csseRoom' + room + '.json' 
 
-//let abstracts = JSON.parse(readTextFile(jsonfile))['csse'];
+let abstracts = JSON.parse(readTextFile(jsonfile))['presentations'];
 
-//studentIndex = findStudent(projectId);
-loadAbstract();
-/*
+studentIndex = findStudent(projectId);
+loadAbstract(studentIndex);
+
 function findStudent(projectId) {
     for (let i = 0; i < abstracts.length; i++) {
         if (abstracts[i].projectId === projectId) {
@@ -15,9 +14,10 @@ function findStudent(projectId) {
         }
     }
 }
-*/
-function loadAbstract() {
-    let abstractFromStorage = JSON.parse(localStorage.getItem("presentationData"));
+
+
+function loadAbstract(studentIndex) {
+    let abstract_info = abstracts[studentIndex];
     let container = document.getElementById("abstract");
 
     // Abstract heading with gold bar
@@ -25,10 +25,10 @@ function loadAbstract() {
     heading.classList.add("abstract-heading");
 
     let h1 = document.createElement("h1");
-    h1.innerHTML = abstractFromStorage.title;
+    h1.innerHTML = abstract_info.title;
     heading.appendChild(h1);
 
-    for(const name of abstractFromStorage.studentName){
+    for(const name of abstract_info.studentName.split("\n\n")){
         let h2 = document.createElement("h2");
         h2.innerHTML = name;
         heading.appendChild(h2);
@@ -46,10 +46,10 @@ function loadAbstract() {
     projectInfo.classList.add("text", "abstract-text");
     let type = "Project type";
     type = type.bold();
-    projectInfo.innerHTML = type + ": " + abstractFromStorage.projectType + "<br/>";
+    projectInfo.innerHTML = type + ": " + abstract_info.projectType + "<br/>";
     let advisor = "Faculty advisor";
     advisor = advisor.bold();
-    projectInfo.innerHTML += advisor + ": " + abstractFromStorage.facultyAdvisor + "<br/>";
+    projectInfo.innerHTML += advisor + ": " + abstract_info.facultyAdvisor + "<br/>";
     container.appendChild(projectInfo);
 
 
@@ -64,7 +64,7 @@ function loadAbstract() {
     }
 
     */
-    let abstract = abstractFromStorage.abstract;
+    let abstract = abstract_info.abstract;
     abstract = abstract.split("\n\n");
 
     for (let i = 0; i < abstract.length; i++) {
@@ -74,8 +74,8 @@ function loadAbstract() {
         container.appendChild(abstractText);
     }
 
-    let splitPosters = abstractFromStorage.posterLink.split("\\n\\n");
-    if(abstractFromStorage.posterLink != "<<NOPOSTER>>" ) loadPosters(splitPosters,container);
+    let splitPosters = abstract_info.poster.split("\n\n");
+    if(abstract_info.poster != "<<NOPOSTER>>" ) loadPosters(splitPosters,container);
 
 }
 

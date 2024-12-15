@@ -8,7 +8,7 @@ function loadCSSEPresentations(json_data) {
 
     let presentations = json_data["presentations"];
     for (let i = 0; i < presentations.length; i++) {
-        let room_num = presentations[i].roomId;
+        let room_num = presentations[i].section;
         let room_str = "room-" + room_num + "-presentations";
         let container = document.getElementById(room_str);
         createPresentationBox(presentations[i], container, true);
@@ -22,9 +22,8 @@ function loadCSSEPresentations(json_data) {
 
 const NUM_ROOMS = 7
 
-for (let i = 1; i<NUM_ROOMS; i++){
+for (let i = 1; i<=NUM_ROOMS; i++){
     let path = "./js/csse/"
-    let room_str = "room-" + i + "-presentations";
     let file_str = path + "csseRoom" + i + ".json";
     let json_data = await readTextFile(file_str);
     let json = JSON.parse(json_data)
@@ -37,4 +36,3 @@ for (let i = 1; i<NUM_ROOMS; i++){
 
 
 
-//getJsonData(json);

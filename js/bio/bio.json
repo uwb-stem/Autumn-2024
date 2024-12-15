@@ -1,0 +1,85 @@
+{
+    "presentations": [
+        {
+            "time": "8:05 AM - 8:15 AM",
+            "title": "Value of Stream Culverts for Wildlife Movement across I-405",
+            "studentName": "Shaelyn Gerrodette",
+            "studentMajor": "Conservation and Restoration Science",
+            "facultyAdvisor": "Dr. David Stokes",
+            "section": 1,
+            "poster": "./posters/bio/Value of Stream Culverts for Wildlife Movement across I-405 Title Slide.jpg"
+        },
+        {
+            "time": "8:15 AM - 8:35 AM",
+            "title": "Park Profiles: A Comparative Study of Moss and Vascular Plant Abundance and Diversity Across a Park Urbanization Gradient",
+            "studentName": "Esha Gill\n\nEvelyn Kukhotska\n\nSavannah Bunnell\n\nJulian Johnson",
+            "studentMajor": "Biology\n\nBiology\n\nBiology\n\nBiology",
+            "facultyAdvisor": "Dr. Cynthia Chang",
+            "section": 1,
+            "poster": "./posters/bio/Park Profiles A Comparative Study of Moss and Vascular Plant Abundance and Diversity Across a Park Urbanization Gradient.jpeg"
+        },
+        {
+            "time": "8:35 AM - 8:55 AM",
+            "title": "Moss Functional Traits",
+            "studentName": "Leila Landverdi\n\nNeel Bitra\n\nNewton Austria-Ball",
+            "studentMajor": "Biology\n\nBiology\n\nBiology",
+            "facultyAdvisor": "Dr. Cynthia Chang",
+            "section": 1,
+            "poster": "./posters/bio/Moss Functional Traits.png"
+        },
+        {
+            "time": "9:00 AM - 9:10 AM",
+            "title": "Examining alternatives to Rifampin in Multi-Drug Resistant Tuberculosis",
+            "studentName": "Aryan Agarwal",
+            "studentMajor": "Premajor",
+            "facultyAdvisor": "Dr. Peter Anderson",
+            "section": 2,
+            "poster": "./posters/bio/Examining alternatives to Rifampin in Multi-Drug Resistant Tuberculosis.jpg"
+        },
+        {
+            "time": "9:10 AM - 9:30 AM",
+            "title": "Coral microbes and disease: testing regional specifity of Endozoicomonas - disease correlations during coral evolution",
+            "studentName": "Marina Girgis\n\nAriana Beloiu\n\nDeana Simonian\n\nSerat Khinda\n\nBhavneesh Bapla",
+            "studentMajor": "Biology - minor: Neuroscience\n\nBiology\n\nBiology\n\nBiology\n\nBiology",
+            "facultyAdvisor": "Dr. Jesse Zaneveld",
+            "section": 2,
+            "poster": "./posters/placeholder/comingsoon.jpg"
+        },
+        {
+            "time": "9:30 AM - 9:50 AM",
+            "title": "Testing for Convergent Evolution of Gene Content in the Genomes of Coral-Associated Microbes",
+            "studentName": "Betty Gebremariam\n\nAva Marmor\n\nYaaziniah Saleem",
+            "studentMajor": "Premajor\n\nBiology\n\nBiology",
+            "facultyAdvisor": "Dr. Jesse Zaneveld",
+            "section": 2,
+            "poster": "./posters/bio/Betty Fitsum Gebremariam.png"
+        },
+        {
+            "time": "9:55 AM - 10:05 AM",
+            "title": "Development of an Engineered Human Tendon Construct",
+            "studentName": "Christian Paulos",
+            "studentMajor": "Biology",
+            "facultyAdvisor": "Dr. Bryan White",
+            "section": 3,
+            "poster": "./posters/bio/Christian Paulos.png"
+        },
+        {
+            "time": "10:05 AM - 10:30 AM",
+            "title": "Effects of Pitch of Crow Vocalizations on Mobbing Behavior",
+            "studentName": "Mai Boba\n\nJoey Illanes\n\nSarah Mansour\n\nHorea Oprean\n\nJessica Singleton\n\nBella Wichert",
+            "studentMajor": "Biology\n\nBiology\n\nBiology, minor: Neuroscience\n\nBiology, minor: Neuroscience\n\nPremajor\n\nPremajor",
+            "facultyAdvisor": "Dr. Doug Wacker",
+            "section": 3,
+            "poster": "./posters/bio/first slide-1.png"
+        },
+        {
+            "time": "10:30 AM - 10:55 AM",
+            "title": "Similar Vocal Characteristics Across Contexts: Comparing American Crow Vocalizations During Pre-Roosting and Roosting",
+            "studentName": "Sara Kormanyos\n\nSophie Orme\n\nHanan Rouf\n\nHannah Severson\n\nKendra Wharton\n\nSeattleine Mangidoyos",
+            "studentMajor": "Biology, minor: Neuroscience\n\nBiology\n\nBiology\n\nBiology\n\nBiology\n\nBiology",
+            "facultyAdvisor": "Dr. Doug Wacker",
+            "section": 3,
+            "poster": "./posters/bio/Crow Presentation First Slide.png"
+        }
+    ]
+}

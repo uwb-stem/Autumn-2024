@@ -1,20 +1,89 @@
-
-
 {
-    "csse": [
-      
-        {
-           "time": "",
-           "projectId": "",
-           "title": "test",
-           "studentName": "",
-           "studentMajor": "",
-           "projectType": "",
-           "facultyAdvisor": "",
-           "posterLink": "./posters/placeholder/comingsoon.jpg",
-           "abstract": ""   
+  "presentations": [
+    {
+      "time": "1:00 PM - 1:15 PM",
+      "projectId": "csse-5-100",
+      "title": "Software Engineer Internship at Amazon",
+      "studentName": "Cora Xiao",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": " Dr. Laurie Anderson",
+      "section": 5,
+      "poster": "./posters/csse/xiaocora_4390339_127863306_poster-finalD.jpeg",
+      "abstract": "The primary purpose of my internship project was to develop a generative AI-based feature for an existing product, enabling users to efficiently identify product brands and related issues from websites. This project addressed the challenge of seamlessly integrating AI capabilities into a client-side application while maintaining usability and security. The work was significant because it enhanced the existing product’s functionality, providing users with actionable insights to improve their decision-making processes.\n\n To achieve this, I built a robust backend system that processed input data, sent AI prompts to a Large Language Model (LLM), and displayed responses to users. I also implemented a secure API entry tool with TypeScript, utilizing an innovative code-driven approach through the CDK package. Despite encountering ambiguities and limited resources, I solved these challenges by researching internal documentation, seeking team advice, and proposing alternative solutions.\n\n Through this project, I enhanced my technical skills, including backend development, API design, and backend integration. The final implementation added value for the existing product 's internal stakeholders by improving efficiency and user experience. My work demonstrated the practical application of advanced AI technologies, benefitting the team and setting a foundation for future AI-driven enhancements. "
+    },
 
-	}
-    
-    ]
+    {
+      "time": "1:15 PM - 1:30 PM",
+      "projectId": "csse-5-115",
+      "title": "Internship at Qualitel: Deployment Assistant",
+      "studentName": "Kyler Tran",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": " Dr. Laurie Anderson",
+      "section": 5,
+      "poster": "./posters/csse/trankyler_4255220_127582634_Kyler Tran - Capstone Poster.png",
+      "abstract": "Deploying new computers is an everyday occurrence at most technology companies including Qualitel. However, configuring each device is often a repetitive and time-consuming task, especially when they require unique configurations for their intended use. My internship at Qualitel focused on developing an application to streamline this process and reduce the workload for the IT team. To accomplish this capstone project, I designed and programmed a full-stack PowerShell application to automate the system setup for deploying touchscreen computers. The automation handles critical tasks such as joining the active directory, installing software, running updates, and adding the device into their asset database. \n\n While developing my software, I leveraged the full capabilities of PowerShell as an object-oriented scripting language to write maintainable and extendable code. I designed a front end from scratch using XAML and WPF to make the user experience simple for the IT team. I proposed and implemented a useful feature that integrated with a REST API, enabling users to manage Snipe-IT assets directly from my application. Throughout the development process, I incorporated stakeholder feedback and learned what it’s like to develop software that has a real-world impact.\n\n In the end, I was able to significantly reduce the time that Qualitel spent installing software and configuring each device. My application transformed the previously manual process to be fully automated, significantly reducing the time needed for the IT team. During my time at Qualitel, I enhanced my understanding of full-stack development, requirements gathering, and designing scalable solutions. Additionally, I got hands-on experience with advanced computer science topics like multithreading and synchronization, while managing a project schedule and deadlines."
+    },
+    {
+      "time": "1:30 PM - 1:45 PM",
+      "projectId": "csse-5-130",
+      "title": "Game Title Pipeline Optimization (Microsoft)",
+      "studentName": "Lakshey Hooda",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": " Dr. Laurie Anderson",
+      "section": 5,
+      "poster": "./posters/csse/hoodalaksheymohan_4406906_127898607_Capstone_Poster_final.jpg",
+      "abstract": "During my internship at Microsoft on the Xbox Cloud Gaming team, I developed a microservice solution to address and streamline title configuration issues. The primary purpose of this project was to enable stakeholders to easily identify and promptly resolve misconfigurations, reducing downtime and improving user experiences. The current process was tedious since changes could happen anytime, without notifying my stakeholders. Also, there were monetary and legal consequences if no action was taken when a misconfiguration occurred. \n\n This work was essential because title misconfigurations can lead to significant operational inefficiencies and degraded service quality for end users, on top of the legal and monetary implications. To solve this problem, I collaborated with my team to design and implement a microservice in C# that interfaced with a source-of-truth API, cached data for more consistent uptime, and identified misconfigurations in real-time. I deployed the service across core planes using Docker and Kubernetes. This service is integrated with an internal tool which is a Blazor-based UI to facilitate issue recognition and resolution. Additionally, I implemented a Teams notification sender to alert stakeholders of potential misconfigurations and created metrics and incident triggers to proactively monitor and prevent future issues.\n\n The project provided me with hands-on experience in building scalable microservices and working collaboratively on a large engineering team. My microservice was successfully deployed to production, delivering measurable improvements in identifying and resolving title configuration issues. This work benefits both the Xbox Cloud Gaming team and its stakeholders by enhancing operational efficiency, ensuring a smoother gaming experience for users, and preventing any legal or monetary implications. The positive impact of my contributions affirmed the value of my solution, and I am excited to return to Microsoft as a full-time software engineer in January. "
+    },
+    {
+      "time": "1:45 PM - 2:00 PM",
+      "projectId": "csse-5-145",
+      "title": "Applications of Large Language Models: Insights from an Applied Research Internship at Foundation LLM",
+      "studentName": "Soriya Lan",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": " Dr. Laurie Anderson",
+      "section": 5,
+      "poster": "./posters/csse/lansoriya_4137087_127898303_Poster Draft.jpg",
+      "abstract": "During my internship as an applied researcher intern at Foundation LLM, I contributed to projects focused on developing AI tools for the design and manufacturing industries. Tasks given included documenting code, translating C++ code into Python, and implementing file retrieval systtems. These tasks were completed under the guidance of senior team members in a remote work environment during the summer quarter.\n\n The internship aimed at assisting Foundation LLM’s goals of improving manufacturing processes, contributing to the company’s AI solutions. By documenting code and data management, I expedited the company’s workflow. This focus helped Foundation LLM’s vision of AI in design and manufacturing industries. This internship taught practical skills used in the real workplace, such as translating code between different programming langauges and creating organized documentation for code. This ensured a foundation for success and efficency in future projects.\n\n This internship provided an opportunity to take a closer look into large language models in the transforming industry, showing the different innovations in the AI field. Skills such as strong problem-solving and communication provided a look into the real-world applications of these skills developed from this experience. Tasks given during this period helped me explore the dynamics of collaborating with team members."
+    },
+    {
+      "time": "2:00 PM - 2:15 PM",
+      "projectId": "csse-5-200",
+      "title": "Automated Detection of Protein Regions Conserved over Evolutionary Time",
+      "studentName": "Adam Chhor ",
+      "studentMajor": "CSSE",
+      "projectType": "",
+      "facultyAdvisor": "Dr. Brent Lagesse",
+      "section": 5,
+      "poster": "./posters/csse/Adam_Chhor_Capstone_Poster.png",
+      "abstract": "Saccharomyces cerevisiae, commonly known as yeast, originated millions of years ago while humans emerged only hundreds of thousands of years ago. Despite this vast difference, we share conserved regions or similar protein sequences. These areas are of high interest as they show that these regions are vital to the protein’s structure and function. A better understanding of proteins has many implications like leading to better medical treatments.\n\n The biologists at Miller’s Laboratory at The University of Utah’s current method to find these regions is extremely tedious, requiring over 300 button clicks, navigating 4 different websites, and can take over 40 minutes for every protein they test for. Working closely with the biologist team, the goal of this project is to automate the biologist’s workflow to a single click to find regions of interest across species.\n\n This tool is made using Python, NiceGui for the user interface, AlphaFold to retrieve the model, and European Bioinformatics Institute REST API to fetch the protein’s sequences, to run Basic Local Alignment Search Tool (BLAST) to find similar proteins, and to run Clustal Omega to align multiple sequences together. Once the tool is done running, it opens up ChimeraX and Jalview on the user’s computer to view the protein’s conservation on the protein’s model.\n\n The project development cycle involved figuring out the requirements and workflow from the biologist, researching how to implement the workflow programmatically, implementing features and testing, and then receiving feedback from the biologist. This was repeated multiple times."
+    },
+    {
+      "time": "2:15 PM - 2:30 PM",
+      "projectId": "csse-5-215",
+      "title": "GhostPeerShare",
+      "studentName": "Rayyan Karim",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty research",
+      "facultyAdvisor": "Dr. Brent Lagesse",
+      "section": 5,
+      "poster": "./posters/csse/Rayyan Karim.png",
+      "abstract": "During my capstone research at the University of Washington Bothell, I contributed to the development of GhostPeerShare, a secure file-sharing application. The goal of this project was to design and implement a system that facilitates peer-to-peer file sharing with a strong emphasis on user privacy, security, and ease of use. By combining cryptographic techniques and efficient wireless communication packages and methods, we aimed to address the increasing demand for secure and seamless file transfer in personal and professional environments.\n\n To achieve this, I designed several components of the application focusing on enhancing the security of transfer of media. For instance, I researched various encryption techniques and methods that are relevant to secure file sharing and outlined how they could be integrated into the project. These techniques include RSA, Diffie-Hellamn, FHE, KLD, Bhattacharyya, and Cramer.\n\n Additionally, I helped design the class structure for the encryption techniques and files. This process included heavy research into encryption as well as comparison between the different techniques that influenced implementation decisions. I also contributed to the documentation of the major files that dealt with UI features and encryption. This documentation included critical information for future developers of the project to absorb to eliminate the need to deeply analyze the code when starting and introduce potential new improvements for them to work on.\n\n The project results include a UI-focused prototype of GhostPeerShare. My contributions focused on enhancing the app's encryption and error handling, ensuring it is user-friendly.\n\n The significance of this work lies in addressing the need for secure file-sharing without relying on centralized servers. By leveraging peer-to-peer connections and strong cryptographic measures, GhostPeerShare provides a practical and easy-access solution for protecting sensitive information during transfer."
+    },
+    {
+      "time": "2:30 PM - 2:45 PM",
+      "projectId": "csse-5-230",
+      "title": "GhostPeerShare Secure P2P Media Sharing",
+      "studentName": "Mohammed Mohiuddin",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty research",
+      "facultyAdvisor": "Dr. Brent Lagesse",
+      "section": 5,
+      "poster": "./posters/csse/mohiuddinmohammed_4257737_127916010_CSS 497 Poster - Mohammed Mohiuddin.png",
+      "abstract": "CSS 497 Abstract - GhostPeerShare Secure P2P Media Sharing\n\n By: Mohammed Mohiuddin \n\n In today's increasingly digital world, personal privacy and security are paramount concerns especially when it comes to sharing sensitive information online. Traditional media sharing methods often rely on third-party servers, which can be vulnerable to security breaches, putting your shared data at risk of unauthorized access. The GhostPeerShare project aims to address this issue by developing a secure peer-to-peer network application for private media sharing between two devices. This project, undertaken in collaboration with graduate student Jeffery Murray Jr. and Professor Brent J Lagesse, focuses on creating a Flutter application that ensures end-to-end encrypted connection establishing a safe environment for sharing data online. \n\n During the first quarter, the project's main goal was to establish a connection between two Android devices. My responsibilities included testing and researching suitable Dart packages. I evaluated multiple open-source APIs and Dart packages like Nearby by Google, Universal BLE, and Bluetooth Low Energy. Furthermore, I collaborated closely with developers to test features ensuring they worked correctly and created designs to incorporate encryption methods such as RSA, Diffie-Hellman, and Fully Homomorphic Encryption for future development. \n\n In the second quarter, I focused on extending and improving the application developed by Jeffrey. This version supported peer-to-peer connections and video context similarity through encryption techniques like KLD, Cramer, and Bhattacharya. My main task was to revamp the entire user interface to enhance user-friendliness and resilience. The original UI was difficult to navigate, provided minimal feedback, and experienced frequent crashes. I redesigned the UI to be more intuitive and documented the codebase and setup to assist future team members with extending development. \n\n My contributions resulted in a significantly improved user interface, a stable foundation for future media extension, comprehensive documentation, and overall a stronger more resilient application. GhostPeerShare now supports successful peer-to-peer scanning, connection/disconnection between two Android devices while incorporating a user-centric design that ensures ease of use and navigation. \n\n The GhostPeerShare project demonstrates a significant advancement in enhancing digital privacy and security for users sharing sensitive information. By incorporating advanced cryptographic techniques and a user-friendly design, the application provides a secure and efficient solution for peer-to-peer media sharing. The focus on resiliency and usability ensures that users can communicate easily. The work done in this capstone sets a strong foundation for future development, ensuring that the application has a robust platform to expand its capabilities to better protect user privacy. "
+    }
+  ]
 }

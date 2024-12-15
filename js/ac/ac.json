@@ -1,131 +1,87 @@
 {
     "ac": [
         {
-            "panel": "panel",
-            "time":"0:00-0:00",
+            "panel": "Business and Finance | Facilitator: Drew, Time Keeper: Bolo, Slides: Grace",
+            "time": "1:00 PM - 1:25 PM",
             "presentations": [
                 {
-                    "title": "title",
-                    "studentName": "student name",
-                    "studentMajor": "student name",
-                    "facultyAdvisor": "faculty advisor",
-                    "poster": "./posters/placeholder/comingsoon.jpg"
+                    "title": "",
+                    "studentName": "Ethan Albright",
+                    "studentMajor": "Applied Computing (B.A.) - minors: Business Administration, Data Science",
+                    "poster": "./posters/acmpt/albrightethanmacarthur_4016866_127825065_AlbrightCapstonePoster.jpg"
                 },
                 {
-                    "title": "title",
-                    "studentName": "student name",
-                    "studentMajor": "student name",
-
-                    "facultyAdvisor": "faculty advisor",
-                    "poster": "./posters/placeholder/comingsoon.jpg"
+                    "title": "",
+                    "studentName": "Anni Liang",
+                    "studentMajor": "Applied Computing (B.A.) - minor: Business Administration",
+                    "poster": "./posters/acmpt/lianganni_4170477_127804936_Anni Liang Capstone poster1.jpg"
                 },
                 {
-                    "title": "title",
-                    "studentName": "student name",
-                    "studentMajor": "student name",
-
-                    "facultyAdvisor": "faculty advisor",
-                    "poster": "./posters/placeholder/comingsoon.jpg"
+                    "title": "",
+                    "studentName": "Mahad Shakil",
+                    "studentMajor": " Applied Computing (B.A.)",
+                    "poster": "./posters/acmpt/shakilmahad_4250037_127908683_Slide1.jpeg"
                 },
+                
                 {
-                    "title": "title",
-                    "studentName": "student name",
-                    "studentMajor": "student name",
-
-                    "facultyAdvisor": "faculty advisor",
-                    "poster": "./posters/placeholder/comingsoon.jpg"
-                },
-                {
-                    "title": "title",
-                    "studentName": "student name",
-                    "studentMajor": "student name",
-
-                    "facultyAdvisor": "faculty advisor",
-                    "poster": "./posters/placeholder/comingsoon.jpg"
+                    "title": "",
+                    "studentName": "Jake Ta-Nguyen",
+                    "studentMajor": "Applied Computing (B.A.)",
+                    "poster": "./posters/acmpt/tanguyenjake_4259421_127853421_Screenshot 2024-12-09 023043.png"
                 }
             ]
         },
         {
-            "panel": "panel",
-            "time":"0:00-0:00",
+            "panel": "Education and Curriculum | Facilitator: Lucas, Time Keeper: Anni, Slides: Faizan",
+            "time": "1:30 PM - 1:55 PM",
             "presentations": [
                 {
-                    "title": "title",
-                    "studentName": "student name",
-                    "studentMajor": "student name",
-
-                    "facultyAdvisor": "faculty advisor",
-                    "poster": "./posters/placeholder/comingsoon.jpg"
+                    "title": "",
+                    "studentName": "Vince Nguyen",
+                    "studentMajor": "Applied Computing (B.A.)",
+                    "poster": "./posters/acmpt/nguyenvince_4326106_127853128_Slide1.PNG"
                 },
                 {
-                    "title": "title",
-                    "studentName": "student name",
-                    "studentMajor": "student name",
-
-                    "facultyAdvisor": "faculty advisor",
-                    "poster": "./posters/placeholder/comingsoon.jpg"
+                    "title": "",
+                    "studentName": "Drew Rigby",
+                    "studentMajor": "Applied Computing (B.A.) - minor: Oceanography",
+                    "poster": "./posters/acmpt/rigbydrew_4138195_127679908_CaspstonePoster-1.png"
                 },
                 {
-                    "title": "title",
-                    "studentName": "student name",
-                    "studentMajor": "student name",
-
-                    "facultyAdvisor": "faculty advisor",
-                    "poster": "./posters/placeholder/comingsoon.jpg"
+                    "title": "",
+                    "studentName": "Yung-Cheng Wang",
+                    "studentMajor": "Applied Computing (B.A.)",
+                    "poster": "./posters/acmpt/wangyungcheng_4152700_127915541_Draft Poster.pptx.png"
                 }
             ]
-        }
-        ,
+        },
         {
-            "panel": "panel",
-            "time":"0:00-0:00",
+            "panel": "Application Design | Vince, Time Keeper: Yung-Chen, Slides: Mahad",
+            "time": "2:00 PM - 2:25 PM",
             "presentations": [
                 {
-                    "title": "title",
-                    "studentName": "student name",
-                    "studentMajor": "student name",
-
-                    "facultyAdvisor": "faculty advisor",
-                    "poster": "./posters/placeholder/comingsoon.jpg"
+                    "title": "",
+                    "studentName": "Faizan Dhankwala",
+                    "studentMajor": "Applied Computing (B.A.) - minor: Data Science",
+                    "poster": "./posters/acmpt/dhankwalafaizan_4114673_127919281_Final Poster (1).png"
                 },
                 {
-                    "title": "title",
-                    "studentName": "student name",
-                    "studentMajor": "student name",
-
-                    "facultyAdvisor": "faculty advisor",
-                    "poster": "./posters/placeholder/comingsoon.jpg"
+                    "title": "",
+                    "studentName": "Bolo Erdenebat",
+                    "studentMajor": "Applied Computing (B.A.) - minor: Innovation & Design",
+                    "poster": "./posters/acmpt/erdenebatbolo_LATE_4022300_127923718_Bolo Erdenebat (3).png"
                 },
                 {
-                    "title": "title",
-                    "studentName": "student name",
-                    "studentMajor": "student name",
-
-                    "facultyAdvisor": "faculty advisor",
-                    "poster": "./posters/placeholder/comingsoon.jpg"
+                    "title": "",
+                    "studentName": "Grace Setiawan",
+                    "studentMajor": "Applied Computing (B.A.) - minor: Business Administration",
+                    "poster": "./posters/acmpt/setiawangracececilia_4352414_127678000_Capstone Presentation Final - Grace.png"
                 },
                 {
-                    "title": "title",
-                    "studentName": "student name",
-                    "studentMajor": "student name",
-
-                    "facultyAdvisor": "faculty advisor",
-                    "poster": "./posters/placeholder/comingsoon.jpg"
-                },
-                {
-                    "title": "title",
-                    "studentName": "student name",
-                    "studentMajor": "student name",
-                    "facultyAdvisor": "faculty advisor",
-                    "poster": "./posters/placeholder/comingsoon.jpg"
-                },
-                {
-                    "title": "title",
-                    "studentName": "student name",
-                    "studentMajor": "student name",
-
-                    "facultyAdvisor": "faculty advisor",
-                    "poster": "./posters/placeholder/comingsoon.jpg"
+                    "title": "",
+                    "studentName": "Lucas Zemlin",
+                    "studentMajor": "Applied Computing (B.A.), Psychology (B.A.)",
+                    "poster": "./posters/acmpt/zemlinlucas_LATE_4071211_127922657_Capstone Poster.jpg"
                 }
             ]
         }

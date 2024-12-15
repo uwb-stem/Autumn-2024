@@ -134,7 +134,7 @@ export function createPanelDiscussionElement(time, panelTitle) {
  * @param {HTMLElement} container 
  * @param {boolean} addAbstractButton 
  * 
- * Creates presentation box within a container on the htmnl page with or without an abstract button.
+ * Creates presentation box within a container on the html page with or without an abstract button.
  * If container is empty, function will grab the container "presentation" from the DOM
  * 
  */
@@ -176,9 +176,11 @@ export function createPresentationBox(presentationInfo, container, addAbstractBu
     textLi.appendChild(studentDiv);
     textLi.appendChild(projectType);
 
+    if(presentationInfo.facultyAdvisor !== undefined){
     let advisor = document.createElement("p");
     advisor.appendChild(document.createTextNode("Faculty advisor: " + presentationInfo.facultyAdvisor));
     textLi.appendChild(advisor);
+    }
 
 
     // button to abstract page
@@ -195,7 +197,7 @@ export function createPresentationBox(presentationInfo, container, addAbstractBu
 
             let abstract = presentationInfo.abstract;
             let title = presentationInfo.title;
-            let studentNames = presentationInfo.studentName.split("\\n\\n");
+            let studentNames = presentationInfo.studentName.split("\n\n");
             let faculty = presentationInfo.facultyAdvisor;
             let type = presentationInfo.projectType;
             let presentationData = {
@@ -212,7 +214,7 @@ export function createPresentationBox(presentationInfo, container, addAbstractBu
     }
 
 
-    let splitPosters = presentationInfo.poster.split("\\n\\n");
+    let splitPosters = presentationInfo.poster.split("\n\n");
     let posterLi = document.createElement("li");
     if (presentationInfo.posterLink != "<<NOPOSTER>>") loadPosters(splitPosters, document, posterLi);
 
@@ -254,11 +256,7 @@ function loadPosters(splitPosters, document, posterLi) {
  */
 function addPresentationTypes(presentationInfo) {
     let projectType = document.createElement("p");
-    if (presentationInfo.projectType === undefined) {
-        // project type
-        projectType.appendChild(document.createTextNode("Project type: "));
-
-    } else {
+    if (presentationInfo.projectType !== undefined) {
         projectType.appendChild(document.createTextNode("Project type: " + presentationInfo.projectType));
     }
 
@@ -278,16 +276,16 @@ function addStudentMajors(presentationInfo) {
     let splitMajors = []
 
     if (presentationInfo.studentMajor == "csse") {
-        const numStudents = presentationInfo.studentName.split("\\n\\n").length;
+        const numStudents = presentationInfo.studentName.split("\n\n").length;
         splitMajors = Array(numStudents).fill(presentationInfo.studentMajor)
     } else {
-        splitMajors = presentationInfo.studentMajor.split("\\n\\n")
+        splitMajors = presentationInfo.studentMajor.split("\n\n")
     }
 
     for (let i = 0; i < splitMajors.length; i++) {
         let a2Text = document.createElement("h5");
         a2Text.classList.add("text");
-        a2Text.innerText = splitMajors[i].replace("\\n\\n", " ");
+        a2Text.innerText = splitMajors[i].replace("\n\n", " ");
     }
 
     if (splitMajors.length > 1) {
@@ -314,12 +312,12 @@ function addStudentNames(presentationInfo) {
 
     studentDiv.classList.add("students");
     let studentName = document.createElement("h4");
-    let splitStudentName = presentationInfo.studentName.split("\\n\\n");
+    let splitStudentName = presentationInfo.studentName.split("\n\n");
 
     for (let i = 0; i < splitStudentName.length; i++) {
         let splitText = document.createElement("h4");
         splitText.classList.add("text");
-        splitText.innerText = splitStudentName[i].replace("\\n\\n", " ");
+        splitText.innerText = splitStudentName[i].replace("\n\n", " ");
     }
 
     for (let i = 0; i < splitStudentName.length; i++) {
